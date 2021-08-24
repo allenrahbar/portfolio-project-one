@@ -29,7 +29,7 @@ h2 {
     background: url(/assets/images/dream-pulse-header.jpg) no-repeat center center ;
     background-size: cover;
     position: relative;
-    height: 800px;
+    height: 725px;
     width: 100%;
 }
 /* Style for menu bar */
@@ -61,10 +61,8 @@ h2 {
   /* style for headers main page */
   .mainheader {
     text-transform: uppercase; 
-    width: 70px;
-    height: 70px;
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     margin: -35px 0 0 -35px;
     text-align: center;
@@ -72,9 +70,11 @@ h2 {
 
 .subheader {
     text-transform:capitalize; 
-    left: 0;
-    right: 0;
-    
+   
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin: -35px 0 0 -35px;
     text-align: center;
     }
 
