@@ -1,17 +1,42 @@
-/* Style for menu bar */
+/* font for document */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 
-#menu {
-    text-align: center;
-    text-transform: uppercase;
-    background-color: slategrey;
+/* style for hero image main page*/
+
+#hero-main {
+    background: url(/assets/images/dream-pulse-header.jpg) no-repeat center center ;
+    background-size: cover;
+    position: relative;
+    height: 800px;
     width: 100%;
 }
-
-#menu  > a {
+/* Style for menu bar */
+.container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: slategrey;
+  }
+  .navbar a {
+    float: left;
+    color:azure;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    color: azure;
-    }
+    font-size: 17px;
+  }
 
-#menu a:hover {
-background-color: black;
-}
+  .navbar a:hover {
+    background-color:black;
+    
+
+
+
