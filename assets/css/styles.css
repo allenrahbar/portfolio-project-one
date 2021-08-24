@@ -6,6 +6,23 @@
     border: none;
 }
 
+/* styles for h1 and h2 */
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: black;
+    font-size: 200%;
+    }
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color:black;
+    font-size: 150%;
+}
+
 /* style for hero image main page*/
 
 #hero-main {
@@ -20,23 +37,42 @@
     position: absolute;
     margin: 20px;
     width: auto;
+    
   }
   .navbar {
     overflow: hidden;
     background-color: slategrey;
+    
   }
   .navbar a {
     float: left;
     color:azure;
+    text-transform: uppercase;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    padding: 1rem 1rem;
+    font-size: 1rem;
   }
 
   .navbar a:hover {
     background-color:black;
-    
+  }
+
+  /* style for headers main page */
+  .mainheader {
+    text-transform: uppercase; 
+    left: 0;
+    right: 0;
+    text-align: center;
+    }
+
+.subheader {
+    text-transform: uppercase; 
+    left: 0;
+    right: 0;
+    text-align: center;
+    }
+
 
 
 
