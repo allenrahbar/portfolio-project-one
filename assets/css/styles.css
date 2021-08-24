@@ -33,8 +33,9 @@ h2 {
     width: 100%;
 }
 #hero-main , h1, h2{
-  background-color: slategrey;
+  
   color: azure;
+  text-shadow: black 4px 4px;
 }
 
 /* style for hero image about page */
