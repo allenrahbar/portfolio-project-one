@@ -63,13 +63,15 @@ h2 {
     text-transform: uppercase; 
     left: 0;
     right: 0;
-    text-align: center;
+     text-align: center;
+     margin: 0 auto;
     }
 
 .subheader {
-    text-transform: uppercase; 
+    text-transform:capitalize; 
     left: 0;
     right: 0;
+    
     text-align: center;
     }
 
