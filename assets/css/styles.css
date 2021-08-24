@@ -1,0 +1,17 @@
+/* Style for menu bar */
+
+#menu {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: slategrey;
+    width: 100%;
+}
+
+#menu  > a {
+    text-decoration: none;
+    color: azure;
+    }
+
+#menu a:hover {
+background-color: black;
+}
