@@ -32,7 +32,7 @@ h2 {
     height: 725px;
     width: 100%;
 }
-#hero-main , h1, h2{
+#hero-main > h1, h2{
   
   color: azure;
   text-shadow: black 4px 4px;
@@ -80,6 +80,7 @@ h2 {
 
   .navbar a:hover {
     background-color:black;
+    
   }
 
   /* style for headers main page */
@@ -120,6 +121,10 @@ footer i {
     color:azure;
     margin-left: 1rem;
 }
+
+footer i:hover {
+  background-color: black;
+  }
 
 
 
