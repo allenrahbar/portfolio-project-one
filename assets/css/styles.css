@@ -45,6 +45,16 @@ h2 {
     height: 725px;
     width: 100%;
 }
+
+/* style for hero image contact page */
+
+#hero-contact {
+  background: url(/assets/images/contact.jpg) no-repeat center center ;
+  background-size: cover;
+  position: relative;
+  height: 725px;
+  width: 100%;
+}
 /* Style for menu bar */
 .container {
     position: absolute;
