@@ -32,11 +32,7 @@ h2 {
     height: 725px;
     width: 100%;
 }
-#hero-main > h1, h2{
-  
-  color: azure;
-  text-shadow: black 4px 4px;
-}
+
 
 /* style for hero image about page */
 #hero-about {
@@ -58,7 +54,7 @@ h2 {
 }
 /* Style for menu bar */
 .container {
-    position: absolute;
+    position: fixed;
     margin: 20px;
     width: auto;
     
@@ -91,15 +87,18 @@ h2 {
     left: 50%;
     margin: -35px 0 0 -35px;
     text-align: center;
+    color: azure;
+    text-shadow: black 4px 4px;
     }
 
 .subheader {
     text-transform:capitalize; 
-   
     position: absolute;
     top: 45%;
     left: 50%;
     margin: -35px 0 0 -35px;
+    color: azure;
+    text-shadow: black 4px 4px;
     }
 
 /* style for footer */
