@@ -26,7 +26,7 @@ h2 {
 /* style for hero image main page */
 
 #hero-main {
-    background: url(/assets/images/dream-pulse-header.jpg) no-repeat center center ;
+    background: url('assets/images/dream-pulse-header.jpg') no-repeat center center ;
     background-size: cover;
     position: relative;
     height: 725px;
@@ -39,7 +39,7 @@ h2 {
 
 /* style for hero image about page */
 #hero-about {
-    background: url(/assets/images/731A0742.JPG) no-repeat center center ;
+    background: url('assets/images/731A0742.JPG') no-repeat center center ;
     background-size: contain;
     position: relative;
     height: 725px;
@@ -49,7 +49,7 @@ h2 {
 /* style for hero image contact page */
 
 #hero-contact {
-  background: url(/assets/images/contact.jpg) no-repeat center center ;
+  background: url('assets/images/contact.jpg') no-repeat center center ;
   background-size: cover;
   position: relative;
   height: 725px;
