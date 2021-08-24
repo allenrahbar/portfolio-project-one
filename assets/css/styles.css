@@ -61,10 +61,13 @@ h2 {
   /* style for headers main page */
   .mainheader {
     text-transform: uppercase; 
-    left: 0;
-    right: 0;
-     text-align: center;
-     margin: 0 auto;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -35px 0 0 -35px;
+    text-align: center;
     }
 
 .subheader {
@@ -74,6 +77,19 @@ h2 {
     
     text-align: center;
     }
+
+/* style for footer */
+
+footer {
+    height: 6rem;
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+}
+footer i {
+    font-size: 200%;
+    color: slategrey;
+}
 
 
 
