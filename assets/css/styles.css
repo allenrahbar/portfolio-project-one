@@ -13,21 +13,30 @@ h1 {
     font-weight: 600;
     letter-spacing: 2px;
     color: black;
-    font-size: 250%;
+    font-size: 200%;
     }
 h2 {
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
     letter-spacing: 2px;
     color:black;
-    font-size: 175%;
+    font-size: 150%;
 }
 
-/* style for hero image main page*/
+/* style for hero image main page */
 
 #hero-main {
     background: url(/assets/images/dream-pulse-header.jpg) no-repeat center center ;
     background-size: cover;
+    position: relative;
+    height: 725px;
+    width: 100%;
+}
+
+/* style for hero image about page */
+#hero-about {
+    background: url(/assets/images/731A0742.JPG) no-repeat center center ;
+    background-size: contain;
     position: relative;
     height: 725px;
     width: 100%;
@@ -90,6 +99,7 @@ footer {
 footer i {
     font-size: 200%;
     color:azure;
+    margin-left: 1rem;
 }
 
 
