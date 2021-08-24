@@ -32,7 +32,7 @@ h2 {
     height: 725px;
     width: 100%;
 }
-#here-main , h1, h2{
+#hero-main , h1, h2{
   background-color: slategrey;
   color: azure;
 }
