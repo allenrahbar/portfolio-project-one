@@ -13,14 +13,14 @@ h1 {
     font-weight: 600;
     letter-spacing: 2px;
     color: black;
-    font-size: 200%;
+    font-size: 250%;
     }
 h2 {
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
     letter-spacing: 2px;
     color:black;
-    font-size: 150%;
+    font-size: 175%;
 }
 
 /* style for hero image main page*/
@@ -75,20 +75,21 @@ h2 {
     top: 40%;
     left: 50%;
     margin: -35px 0 0 -35px;
-    text-align: center;
     }
 
 /* style for footer */
 
 footer {
-    height: 6rem;
+    width: 100%;
+    height: 55px;
     text-align: center;
-    margin: 1%;
+    background-color: slategrey;
     padding: 1%;
 }
+
 footer i {
     font-size: 200%;
-    color: slategrey;
+    color:azure;
 }
 
 
