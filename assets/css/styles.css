@@ -6,7 +6,7 @@
     border: none;
 }
 
-/* styles for h1 and h2 */
+/* styles for h1 h2 and p*/
 
 h1 {
     font-family: 'Oswald', sans-serif;
@@ -22,6 +22,16 @@ h2 {
     color:black;
     font-size: 150%;
 }
+
+p {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: black;
+  font-size: 100%;
+}
+  
+
 
 /* style for hero image main page */
 
@@ -79,6 +89,7 @@ h2 {
   }
 
   /* style for headers main page */
+
   .mainheader {
     text-transform: uppercase; 
     position: absolute;
@@ -100,6 +111,21 @@ h2 {
     text-shadow: black 4px 4px;
     }
   
+  /* style for about section */
+ 
+  .left {
+     float: left;
+    padding: 1rem;
+    width: 30%;
+   }
+   
+   .right {
+      float: right;
+      padding: 1rem;
+      width: 30%;
+   }
+
+  
   /* style for contact header  */
   .contactheader {
     text-transform: uppercase;
@@ -110,14 +136,14 @@ h2 {
   /* Style for form */
 
 input[type=text], [type=email] , [type=tel], select , textarea {
-  text-align: center;
+  text-align: left;
   width: 33%;
   padding: 1rem;
   border: 1px solid slategray;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 2rem;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
   resize: vertical;
 }
 
@@ -135,7 +161,8 @@ input[type=submit] {
 }
 
 input[type=submit]:hover{
-  background-color:azure;
+  background-color:black;
+  color: azure;
 }
 
 
@@ -162,6 +189,7 @@ footer i {
 
 footer i:hover {
   background-color: black;
+  size: 1rem;
   }
 
 
