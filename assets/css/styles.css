@@ -137,6 +137,11 @@ p {
   }
 
   /* Style for form */
+#contact-me {
+  overflow: hidden;
+  left: 0;
+  right: 0;
+}
 
 input[type=text], [type=email] , [type=tel] {
   text-align: left;
@@ -148,11 +153,10 @@ input[type=text], [type=email] , [type=tel] {
   margin-top: 2rem;
   margin-bottom: 1rem;
   resize: vertical;
-}
+  }
 
 .message {
   height: 10rem;
-  overflow: auto;
 }
 
 input[type=submit] {
