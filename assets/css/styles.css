@@ -56,7 +56,7 @@ h2 {
 .container {
     position: fixed;
     width: auto;
-    z-index: -1;
+    z-index: +1;
     }
   .navbar {
     overflow: hidden;
