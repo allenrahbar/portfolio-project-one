@@ -55,10 +55,9 @@ h2 {
 /* Style for menu bar */
 .container {
     position: fixed;
-    margin: 20px;
     width: auto;
-    
-  }
+    z-index: -1;
+    }
   .navbar {
     overflow: hidden;
     background-color: slategrey;
