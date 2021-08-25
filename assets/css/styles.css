@@ -117,12 +117,15 @@ p {
      float: left;
     padding: 1rem;
     width: 30%;
+    margin-top: 9rem;
    }
    
    .right {
       float: right;
       padding: 1rem;
       width: 30%;
+      margin-top: 9rem;
+      
    }
 
   
@@ -135,7 +138,7 @@ p {
 
   /* Style for form */
 
-input[type=text], [type=email] , [type=tel], select , textarea {
+input[type=text], [type=email] , [type=tel] {
   text-align: left;
   width: 33%;
   padding: 1rem;
@@ -149,6 +152,7 @@ input[type=text], [type=email] , [type=tel], select , textarea {
 
 .message {
   height: 10rem;
+  overflow: auto;
 }
 
 input[type=submit] {
