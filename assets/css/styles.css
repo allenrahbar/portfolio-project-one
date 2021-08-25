@@ -5,6 +5,9 @@
     padding: 0;
     border: none;
 }
+* {
+  font-family: 'Oswald', sans-serif;
+}
 
 /* styles for h1 h2 and p*/
 
@@ -143,7 +146,7 @@ p {
   right: 0;
 }
 
-input[type=text], [type=email] , [type=tel] {
+input[type=text], [type=email] , [type=tel], textarea {
   text-align: left;
   width: 33%;
   padding: 1rem;
