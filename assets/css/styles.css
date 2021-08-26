@@ -213,25 +213,32 @@ footer i:hover {
   /* for phones with a small screen */
   @media screen and (max-width: 580px) {
     #hero-main {
-      height: 500px;
+      height: 560px;
     }
     .container {
-      width: 100;
+      width: 100%;
     }
-    .mainheader, .subheader {}
+    .mainheader, .subheader {
+    text-align: left;
+    }
      
      #hero-about {
        background-image: none;
+       height: 560px;
      }
      .left, .right {
        float: left;
        width: 100%;
+       margin-top: 1px;
      }
      #contact-me {
        left: 0;
      }
      input[type=text], [type=email] , [type=tel], textarea {
       width: 100%;
+     }
+     input[type=submit] {
+       left: 2px;
      }
     }
     
