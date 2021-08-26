@@ -142,27 +142,29 @@ p {
   /* Style for form */
 #contact-me {
   overflow: hidden;
-  left: 0;
-  right: 0;
+  position: relative;
+  left: 33%;
 }
 
 input[type=text], [type=email] , [type=tel], textarea {
   text-align: left;
   width: 33%;
   padding: 1rem;
-  border: 1px solid slategray;
+  border: 4px solid slategray;
   border-radius: 4px;
   box-sizing: border-box;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
   resize: vertical;
+  margin-top: 1rem;
   }
 
 .message {
   height: 10rem;
-}
+  resize: none;
+  }
 
 input[type=submit] {
+  position: relative;
+  left: 33%;
   background-color: slategray;
   color:azure;
   padding: 12px 20px;
