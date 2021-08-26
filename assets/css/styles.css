@@ -167,7 +167,7 @@ input[type=text], [type=email] , [type=tel], textarea {
 
 input[type=submit] {
   position: relative;
-  left: 33%;
+  left: 0;
   background-color: rgb(112, 128, 144);
   color:rgb(240, 255, 255);
   padding: 12px 20px;
