@@ -208,6 +208,35 @@ footer i:hover {
   size: 1rem;
   }
 
+  /* media queries */
+
+  /* for phones with a small screen */
+  @media screen and (max-width: 580px) {
+    #hero-main {
+      height: 500px;
+    }
+    .container {
+      width: 100;
+    }
+    .mainheader, .subheader {}
+     
+     #hero-about {
+       background-image: none;
+     }
+     .left, .right {
+       float: left;
+       width: 100%;
+     }
+     #contact-me {
+       left: 0;
+     }
+     input[type=text], [type=email] , [type=tel], textarea {
+      width: 100%;
+     }
+    }
+    
+  
+
 
 
 
