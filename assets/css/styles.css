@@ -220,6 +220,7 @@ footer i:hover {
     }
     .mainheader, .subheader {
     text-align: left;
+    
     }
      
      #hero-about {
@@ -228,8 +229,12 @@ footer i:hover {
      }
      .left, .right {
        float: left;
-       width: 100%;
+       width: 95%;
        margin-top: 1px;
+       margin-right: 4px;
+     }
+     .left > h2, .right > h2 {
+       text-align: center;
      }
      #contact-me {
        left: 0;
