@@ -74,12 +74,12 @@ p {
     }
   .navbar {
     overflow: hidden;
-    background-color: slategrey;
+    background-color: rgb(112, 128, 144);
     
   }
   .navbar a {
     float: left;
-    color:azure;
+    color:rgb(240, 255, 255);
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
@@ -101,7 +101,7 @@ p {
     left: 50%;
     margin: -35px 0 0 -35px;
     text-align: center;
-    color: azure;
+    color: rgb(240, 255, 255);
     text-shadow: black 4px 4px;
     }
 
@@ -111,7 +111,7 @@ p {
     top: 45%;
     left: 50%;
     margin: -35px 0 0 -35px;
-    color: azure;
+    color: rgb(240, 255, 255);
     text-shadow: black 4px 4px;
     }
   
@@ -136,8 +136,8 @@ p {
   /* style for contact header  */
   .contactheader {
     text-transform: uppercase;
-    color: azure;
-    text-shadow: slategray 4px 4px;
+    color: rgb(240, 255, 255);
+    text-shadow: rgb(112, 128, 144) 4px 4px;
     text-align: center;
     font-size: 200%;
   }
@@ -168,8 +168,8 @@ input[type=text], [type=email] , [type=tel], textarea {
 input[type=submit] {
   position: relative;
   left: 33%;
-  background-color: slategray;
-  color:azure;
+  background-color: rgb(112, 128, 144);
+  color:rgb(240, 255, 255);
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -178,7 +178,7 @@ input[type=submit] {
 
 input[type=submit]:hover{
   background-color:black;
-  color: azure;
+  color: rgb(240, 255, 255);
 }
 
 
@@ -190,7 +190,7 @@ footer {
     width: 100%;
     height: 55px;
     text-align: center;
-    background-color: slategrey;
+    background-color: rgb(112, 128, 144);
     position: fixed;
     padding: 10px 10px 0px 10px;
     bottom: 0;
@@ -199,7 +199,7 @@ footer {
 
 footer i{
     font-size: 200%;
-    color:azure;
+    color:rgb(240, 255, 255);
     margin-left: 1rem;
 }
 
@@ -245,6 +245,20 @@ footer i:hover {
      input[type=submit] {
        left: 2px;
      }
+    }
+
+    /* Media query for larger phones */
+    @media screen and (max-width:1200px) {
+
+    }
+    /* Media query for medium sized devices (Tablets) */
+
+    @media screen and (max-width:1200px) {
+     
+      #hero-main, #hero-about, #hero-contact {
+        width: 100%;
+        height: 1370px;
+      }
     }
 
     /* Media query for larger devices */
