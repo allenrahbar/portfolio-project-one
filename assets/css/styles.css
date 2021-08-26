@@ -138,6 +138,8 @@ p {
     text-transform: uppercase;
     color: azure;
     text-shadow: slategray 4px 4px;
+    text-align: center;
+    font-size: 200%;
   }
 
   /* Style for form */
