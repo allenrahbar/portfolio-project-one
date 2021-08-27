@@ -214,19 +214,13 @@ footer i:hover {
     .container {
       width: 100%;
     }
-    .mainheader {
+    .mainheader, .subheader{
       text-align: center;
-      margin: 0 0 0 0;
+      margin: 0;
       left: 0;
       right: 0;
     }
-     .subheader {
-    text-align: center;
-    left: 0;
-    right: 0;
-    margin: 0 0 0 0;
-    
-    }
+
      
      #hero-about {
         background-image: none;
