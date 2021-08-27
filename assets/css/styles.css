@@ -211,7 +211,7 @@ footer i:hover {
   /* media queries */
 
   /* for phones with a small screen */
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 450px) {
     #hero-main, #hero-contact {
       height: 600px; 
     }
@@ -224,8 +224,8 @@ footer i:hover {
     }
      
      #hero-about {
-       background-image: none;
-       height: 500px;
+        height: 500px;
+        background-image: none;
      }
 
      .left, .right {
@@ -250,7 +250,7 @@ footer i:hover {
 
     /* Media query for tablets */
 
-    @media screen and (min-width:700px){
+    @media screen and (min-width:500px){
       
     .left > h2, p , .right > h2, p {
       background-color: rgb(112, 128, 144);
