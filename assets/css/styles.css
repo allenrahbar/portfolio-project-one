@@ -211,9 +211,9 @@ footer i:hover {
   /* media queries */
 
   /* for phones with a small screen */
-  @media screen and (max-width: 580px) {
-    #hero-main {
-      height: 560px;
+  @media screen and (max-width: 400px) {
+    #hero-main, #hero-contact {
+      height: 600px; 
     }
     .container {
       width: 100%;
@@ -225,8 +225,9 @@ footer i:hover {
      
      #hero-about {
        background-image: none;
-       height: 560px;
+       height: 500px;
      }
+
      .left, .right {
        float: left;
        width: 95%;
@@ -247,17 +248,23 @@ footer i:hover {
      }
     }
 
-    /* Media query for larger phones */
-    @media screen and (max-width:1200px) {
+    /* Media query for tablets */
 
+    @media screen and (min-width:700px){
+      
+    .left > h2, p , .right > h2, p {
+      background-color: rgb(112, 128, 144);
+      color: azure;
     }
-    /* Media query for medium sized devices (Tablets) */
+    }
+   
+    /* Media query for smaller laptops */
 
-    @media screen and (max-width:1200px) {
+    @media screen and (min-width:1200px) {
      
       #hero-main, #hero-about, #hero-contact {
         width: 100%;
-        height: 1370px;
+        height: 1150px;
       }
     }
 
