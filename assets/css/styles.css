@@ -256,6 +256,14 @@ footer i:hover {
       color: azure;
     }
     }
+
+    @media screen and (min-width:950px) and (max-width:1199px){
+      #hero-main, #hero-about, #hero-contact {
+        width: 100%;
+        height: 1000px;
+      }
+    
+    }
    
     /* Media query for smaller laptops */
 
@@ -263,7 +271,7 @@ footer i:hover {
      
       #hero-main, #hero-about, #hero-contact {
         width: 100%;
-        height: 800px;
+        height: 1000px;
       }
     }
 
@@ -272,7 +280,7 @@ footer i:hover {
     /* Media query for larger devices */
     @media screen and (min-width: 2000px) and (max-width: 3000px){
       #hero-main, #hero-about, #hero-contact {
-        height: 750px;
+        height: 1000px;
       }
       h1 {
         font-size: 500%;
