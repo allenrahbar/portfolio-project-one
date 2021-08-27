@@ -212,7 +212,7 @@ footer i:hover {
   /* for phones with a small screen */
   @media screen and (max-width: 450px) {
     #hero-main, #hero-contact {
-      height: 600px; 
+      height: 700px; 
     }
     .container {
       width: 100%;
