@@ -217,11 +217,13 @@ footer i:hover {
     .mainheader {
       text-align: center;
       margin: 0 0 0 0;
-      left: 3px;
+      left: 0;
+      right: 0;
     }
      .subheader {
-    text-align: left;
-    left: 2px;
+    text-align: center;
+    left: 0;
+    right: 0;
     margin: 0 0 0 0;
     
     }
