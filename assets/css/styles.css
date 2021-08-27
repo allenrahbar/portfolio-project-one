@@ -270,8 +270,17 @@ footer i:hover {
       background-color: rgb(112, 128, 144);
       color: azure;
     }
-    }
-   
+    input[type=text], [type=email] , [type=tel], textarea {
+      text-align: left;
+      width: 50%;
+      padding: 1.5rem;
+      border: 4px solid slategray;
+      border-radius: 4px;
+      box-sizing: border-box;
+      resize: vertical;
+      margin-top: 2rem;
+      }
+     }
    /* Media query for larger devices */
     @media screen and (min-width: 2000px) and (max-width: 3000px){
       h1 {
