@@ -153,7 +153,8 @@ p {
     text-shadow: rgb(112, 128, 144) 4px 4px;
     text-align: center;
     font-size: 200%;
-  }
+    margin-top: 15%;
+ }
 
   /* Style for form */
 #contact-me {
@@ -300,9 +301,7 @@ footer i:hover{
       .left > h2, p , .right > h2, p {
      color: rgb(240, 255, 255);
     }
-    .contactheader{
-      margin-top: 55px;
-    }
+    
     input[type=text], [type=email] , [type=tel], textarea {
       text-align: left;
       width: 50%;
