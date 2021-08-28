@@ -40,7 +40,7 @@ p {
 /* style for hero image main page */
 
 #hero-main {
-    background: url('../images/dream-pulse-header.jpg') no-repeat center center ;
+    background: url('../images/mainpage.jpg') no-repeat center center ;
     background-size: cover;
     position: relative;
     height: 100vh;
@@ -50,7 +50,7 @@ p {
 
 /* style for hero image about page */
 #hero-about {
-    background: url('../images/731A0742.JPG') no-repeat center center ;
+    background: url('../images/mewhite.JPG') no-repeat center center ;
     background-size: contain;
     position: relative;
     height: 100vh;
@@ -270,6 +270,7 @@ footer i:hover {
 
     @media screen and (min-width:550px) and (max-width:900px){
     .left > h2, p , .right > h2, p {
+      background: url(../images/);
       background-color: rgb(112, 128, 144);
       color: azure;
     }
