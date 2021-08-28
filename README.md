@@ -6,6 +6,15 @@ This is my personal website to present to prospective employers. Users of the si
 ## Demo 
 A live demo of the site can be found  [here](https://allenrahbar.github.io/projectone/) .
 
+## Wireframes
+### Mobile
+[Landing page](assets/wireframes/wiremainmobile.png)
+[About me](assets/wireframes/wireaboutmobile.png)
+[Images](assets/wireframes/wireimagesmobile.png)
+[Contact me](assets/wireframes/wirecontactmobile.png)
+
+
+
 ## Features
 The features of the site are very basic. The navigation bar is fixed on the page for users to be able to navigate to any page at any time with ease. Cv can be downloaded from header and footer.The landing page is a simple page with my name and job title. You can read a little bit about me in the about section and see my picture. In the images section there are a few images of me teaching, my teaching certificate and me volunteering for an animal shelter. In the contact section there is a form to fill out if anyone wants to contact me. The footer has links to github, linkedin, gmail. 
 
