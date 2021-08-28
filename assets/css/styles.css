@@ -266,8 +266,7 @@ footer i:hover {
        left: 2px;
      }
      .navbar a {
-       font-size: 1rem;
-       margin-left: 10px;
+       font-size: 12px;
      }
      #footer {
       width: 100%;
@@ -284,7 +283,6 @@ footer i:hover {
     @media screen and (min-width:350px) and (max-width:450px){
       .navbar a {
         font-size: 1rem;
-        margin-left: 24px;
       }
     }
     /* Media query for tablets and smaller laptops*/
