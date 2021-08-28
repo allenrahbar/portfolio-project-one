@@ -94,7 +94,7 @@ p {
 
   /* style for headers main page code was taken from (https://blog.hubspot.com/website/center-div-css) */
 
-  .mainheader {
+  .main-header {
     text-transform: uppercase; 
     position: absolute;
     top: 25%;
@@ -105,7 +105,7 @@ p {
     text-shadow: black 4px 4px;
     }
 
-.subheader {
+.sub-header {
     text-transform:capitalize; 
     position: absolute;
     top: 45%;
@@ -147,7 +147,7 @@ p {
   
   /* style for contact header  */
 
-  .contactheader {
+  .contact-header {
     text-transform: uppercase;
     color: rgb(240, 255, 255);
     text-shadow: rgb(112, 128, 144) 4px 4px;
@@ -228,7 +228,7 @@ footer i:hover{
     .container {
       width: 100%;
     }
-    .mainheader, .subheader{
+    .main-header, .sub-header{
       text-align: center;
       margin: 0;
       left: 0;
@@ -318,7 +318,7 @@ footer i:hover{
       h1 {
         font-size: 500%;
       }
-      h2, .contactheader {
+      h2, .contact-header {
         margin-top: 2rem;
         font-size: 400%;
       }
@@ -362,7 +362,7 @@ footer i:hover{
       h1 {
         font-size: 1000%;
       }
-      h2, .contactheader {
+      h2, .contact-header {
         font-size: 750%;
       }
       p {
