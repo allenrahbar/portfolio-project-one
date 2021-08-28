@@ -32,6 +32,7 @@ The features of the site are very basic. The navigation bar is fixed on the page
 
 - __Navigation Bar__
 - The navigation bar is situated on top of the page on mobile devices and in the top left on tablets and PCs/Laptops. All pages of the website are in one file and the navigation bar is fixed to always follow the user when scrolling on the page if they wish to return to a previous section.
+![Navigation Bar](assets/readme-images/navbar.png)
 
 - __Landing Page__
 - The landing page has a background image of a laptop along with my name and job title to show the user what the page is about.
