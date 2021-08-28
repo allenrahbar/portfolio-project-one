@@ -246,6 +246,10 @@ footer i:hover {
      .left > h2, .right > h2 {
        text-align: center;
      }
+
+     #images {
+       column-count: 1;
+     }
      #contact-me {
        left: 0;
      }
