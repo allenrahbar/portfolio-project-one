@@ -132,12 +132,17 @@ p {
       
    }
 
-   /* style for images */
+   /* style for images  */
+   .column {
+     float: left;
+     width: 50%;
+     }
 
-   #images > img{
-    width: 50%; 
-    height: 50vh;
-   }
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
   
   /* style for contact header  */
 
