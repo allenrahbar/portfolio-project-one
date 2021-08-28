@@ -298,6 +298,9 @@ footer i:hover {
       .left > h2, p , .right > h2, p {
      color: rgb(240, 255, 255);
     }
+    .contactheader{
+      margin-top: 55px;
+    }
     input[type=text], [type=email] , [type=tel], textarea {
       text-align: left;
       width: 50%;
