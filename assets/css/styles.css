@@ -132,17 +132,18 @@ p {
       
    }
 
-   /* style for images  */
-   .column {
-     float: left;
-     width: 50%;
-     }
+   /* style for images code taken from Love running project */
+   #images {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0;
+}
 
-    .row::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
+#images > img {
+    width: 100%;
+    height: 50vh;
+}
   
   /* style for contact header  */
 
