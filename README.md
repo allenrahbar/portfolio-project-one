@@ -40,8 +40,16 @@ The features of the site are very basic. The navigation bar is fixed on the page
 - __About me__
 - The about me section has a picture of me to give a personal touch to the page and for employers to see me. The about me text has my current role along with skills that I will be acquiring. The my projects section informs employers how to access my projects and how to contact me.
 ![About me](assets/images/aboutme.png)
-- The background image for this page changes on mobile devices because the white background was not suitable for small devices.
+- The background image for this page changes on mobile devices and tablets because the white background was not suitable for small devices.
 ![About me](assets/images/aboutmemobile.png)
+
+- __Images__
+- The gallery has 4 images of me working as a teacher, my teaching certificate and me doing volunteer work. This was created for users to see my work. Alt attribue has been added for users that can't view images.
+![Images](assets/images/images.png)
+
+- __Contact me__
+- The contact me section has a form to fill out for anyone that wishes to contact me for employment opportunities. All fields are required to be filled out by the user to be able to submit the form. 
+![images](assets/images/contactme.png)
 
 
 
