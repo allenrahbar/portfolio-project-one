@@ -212,11 +212,13 @@ footer i{
     font-size: 200%;
     color:rgb(240, 255, 255);
     margin-left: 1rem;
+    cursor: pointer;
 }
+footer i:hover{
+  color: black;
+}
+  
 
-footer i:hover {
-  background-color: black;
-  }
 
   /* media queries */
 
