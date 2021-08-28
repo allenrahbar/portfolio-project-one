@@ -186,7 +186,6 @@ input[type=submit]:hover{
 /* style for footer */
 
 footer {
-   
     width: 100%;
     height: 55px;
     text-align: center;
@@ -194,8 +193,7 @@ footer {
     position: fixed;
     padding: 10px 10px 0px 10px;
     bottom: 0;
-           
-}
+  }
 
 footer i{
     font-size: 200%;
@@ -269,10 +267,15 @@ footer i:hover {
     /* Media query for tablets and smaller laptops*/
 
     @media screen and (min-width:550px) and (max-width:900px){
-    .left > h2, p , .right > h2, p {
-      background: url(../images/);
-      background-color: rgb(112, 128, 144);
-      color: azure;
+    #hero-about {
+      background: url(../images/meblack.jpg) no-repeat center center;
+      background-size: cover;
+      position: relative;
+      height: 100vh;
+      width: 100%;
+    }
+      .left > h2, p , .right > h2, p {
+     color: rgb(240, 255, 255);
     }
     input[type=text], [type=email] , [type=tel], textarea {
       text-align: left;
