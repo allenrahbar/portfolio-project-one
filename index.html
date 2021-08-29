@@ -11,6 +11,11 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="assets/favicon/site.webmanifest"> 
+    <script>
+        function myFunction() {
+          alert("Thank you! Your form has been submitted. I will contact you ASAP.");
+        }
+        </script>
     <title>Allen Rahbar</title>
 </head>
 <body>
@@ -63,27 +68,27 @@
                                             
         </div>    
     
-    <!-- content for contact  -->
+    <!-- content for contact onsubmit function code taken from https://www.w3schools.com/jsref/event_onsubmit.asp -->
 
         <section id="hero-contact">
             <h2 class="contact-header">Contact Me</h2>
-                 <form id="contact-me">
+                 <form id="contact-me" onsubmit="myFunction()">
                     <div>
                         <label for="name" aria-label="Enter name"></label>
                             <input type="text" id="name" name="name" placeholder="Your Name:" required>
-                    </div>
+                                </div>
                     <div>
                         <label for="email" aria-label="Enter email"></label>
                             <input type="email" id="email" name="email" placeholder="Your E-mail:" required>
-                    </div>
+                                </div>
                     <div>
                         <label for="phone" aria-label="Enter phone number"></label>
                             <input type="tel" id="phone" name="phone" placeholder="Your Phone Number:" required>
-                    </div>
+                                </div>
                     <div>
                         <label for="message" aria-label="Enter your message"></label>
                              <textarea class="message" id="message" name="message" placeholder="Message:" required ></textarea>
-                    </div>
+                            </div>
                     <input type="submit" value="Submit">
                 </form>
         </section>
