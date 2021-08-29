@@ -50,9 +50,11 @@ The features of the site are very basic. The navigation bar is fixed on the page
 
 - __Contact me__
 - The contact me section has a form to fill out for anyone that wishes to contact me for employment opportunities. All fields are required to be filled out by the user to be able to submit the form. 
-![images](assets/readme-images/contactme.png)
+![Contact me](assets/readme-images/contactme.png)
 
-
+- __Footer__
+- The footer has 4 fontawesome icons for my Github, LinkedIn, Gmail and a link to download my CV. The footer is fixed on every page of the website for the user to always have accesibility to the links.
+![Footer](assets/readme-images/footer.png)
 
 
 
