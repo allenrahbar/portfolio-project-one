@@ -241,7 +241,6 @@ footer i:hover{
         background: url(../images/meblack.jpg) no-repeat center center;
         background-size: cover;
         position: relative;
-        height: 100vh;
         width: 100%;
       }
      .left > h2, p , .right > h2, p {
@@ -300,7 +299,6 @@ footer i:hover{
       background: url(../images/meblack.jpg) no-repeat center center;
       background-size: cover;
       position: relative;
-      height: 100vh;
       width: 100%;
     }
       .left > h2, p , .right > h2, p {
