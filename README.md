@@ -25,6 +25,16 @@ A live demo of the site can be found  [here](https://allenrahbar.github.io/proje
 - [Images](assets/wireframes/wireimagespc.png)
 - [Contact me](assets/wireframes/wirecontactpc.png)
 
+## Technologies Used
+- HTML 
+- CSS
+
+## Programs Used
+- Balsamiq for wireframes.
+- Gitpod to write the code.
+- Github used to store the repository.
+- Google fonts was used for all text on the site.
+- Fontawesome used for icons.
 
 
 ## Features
@@ -58,6 +68,9 @@ The features of the site are very basic. The navigation bar is fixed on the page
 
 ## Features left to implement
 This is an ongoing project that I will be working on for the duration of my working life. The site will be updated with javascript and more interactive features will be added when I have learned the skills necessary to do this. The images section will be replaced with an image of all my projects along with a link to access each project. 
+
+## Testing 
+
 
 
 
