@@ -67,12 +67,22 @@ The features of the site are very basic. The navigation bar is fixed on the page
 ![Footer](assets/readme-images/footer.png)
 
 ## Features left to implement
-This is an ongoing project that I will be working on for the duration of my working life. The site will be updated with javascript and more interactive features will be added when I have learned the skills necessary to do this. The images section will be replaced with an image of all my projects along with a link to access each project. 
+This is an ongoing project that I will be working on for the duration of my working life. The site will be updated with javascript and more interactive features will be added when I have learned the skills necessary to do this. The images section will be replaced with an image of all my projects along with a link to access each project. I would also like to make the contact me section be able to send me an email for when users fill out the form.
 
 ## Testing 
+The user testing of the site achieved its purpose. It's easy to navigate between sections. The users will be able to see a little bit about me in the about section and download the PDF for a full list of my workhistory and education. They are also able to view my Github, LinkedIn and Download my CV.
 
+During testing for responsiveness I noticed that the images weren't responsive on all devices. This was fixed by changing the height on all images to fit the viewport of the device. Another thing I noticed was that the text in the about me section was overlapping the image on smaller devices. I fixed this by changing the background picture and text colorfor smaller devices. I have tested the responsiveness from small devices all the way up to 5k resolution and have confirmed that it is responsive. Media queries were added for changes depending on the size of the screen so that the information on the site is clearly visible on all devices.
 
+The navbar wasn't working when you scroll down on other pages. This was fixed by adding a z-index to the navbar. 
 
+All links in the header and footer open in a new tab except for the download button which downloads the CV to your default downloads folder. Everything has been manually tested to confirm that it works.
+
+If you try to submit any of the information in the contact form you will not be able to proceed because all fields are required to be filled out.
+
+The live site has been tested on Google Chrome, Firefox, Safari and Edge. The site has also been tested on several devices using dev tools to confirm that its responsive on all devices.
+
+ 
 
 
 
