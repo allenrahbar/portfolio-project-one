@@ -100,6 +100,22 @@ This site was deployed using GitHub Pages with the following the steps below:
 7. Click "Save", then wait for it to be deployed. It may take some time for the page to be fully deployed.
 8. The URL will be displayed above the "source" section in GitHub Pages.
 
+## Credits
+
+## Content
+- The fonts were taken from [Google fonts](https://fonts.google.com/).
+- The icons in the footer were taken from [Fontawesome](https://fontawesome.com/).
+- Help with coding was taken from [https://www.w3schools.com/]
+- The code taken has been added in the comments ,in the HTML and CSS file.
+
+## Media
+- The image from the landing page was taken from [Templatemo](https://templatemo.com/)
+- The image from the contact me page was taken from [Pexels](https://www.pexels.com/)
+- I own the rights to the images in the about me and images section.
+
+## Help
+I would like to thank the Code Institute for providing the lesson necessary to be able to complete this project. My  friend [Emanuel Silva](https://github.com/manni8436) for helping answer any questions I had and also with testing the site.
+
  
 
 
