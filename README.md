@@ -56,6 +56,9 @@ The features of the site are very basic. The navigation bar is fixed on the page
 - The footer has 4 fontawesome icons for my Github, LinkedIn, Gmail and a link to download my CV. The footer is fixed on every page of the website for the user to always have accesibility to the links. All links will open in a new tab except the download button which will download the CV to the users default downloads folder.
 ![Footer](assets/readme-images/footer.png)
 
+## Features left to implement
+This is an ongoing project that I will be working on for the duration of my working life. The site will be updated with javascript and more interactive features will be added when I have learned the skills necessary to do this. The images section will be replaced with an image of all my projects along with a link to access each project. 
+
 
 
 
