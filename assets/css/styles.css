@@ -76,7 +76,7 @@ p {
 
   .navbar {
     overflow: hidden;
-    background-color: rgb(112, 128, 144);
+    background-color: rgba(112, 128, 144,0.7);
     
   }
   .navbar a {
