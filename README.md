@@ -8,22 +8,22 @@ A live demo of the site can be found  [here](https://allenrahbar.github.io/proje
 
 ## Wireframes
 ### Mobile
-[Landing page](assets/wireframes/wiremainmobile.png)
-[About me](assets/wireframes/wireaboutmobile.png)
-[Images](assets/wireframes/wireimagesmobile.png)
-[Contact me](assets/wireframes/wirecontactmobile.png)
+- [Landing page](assets/wireframes/wiremainmobile.png)
+- [About me](assets/wireframes/wireaboutmobile.png)
+- [Images](assets/wireframes/wireimagesmobile.png)
+- [Contact me](assets/wireframes/wirecontactmobile.png)
 
 ### Tablet
-[Landing page](assets/wireframes/wiremaintablet.png)
-[About me](assets/wireframes/wireabouttablet.png)
-[Images](assets/wireframes/wireimagestablet.png)
-[Contact me](assets/wireframes/wirecontacttablet.png)
+- [Landing page](assets/wireframes/wiremaintablet.png)
+- [About me](assets/wireframes/wireabouttablet.png)
+- [Images](assets/wireframes/wireimagestablet.png)
+- [Contact me](assets/wireframes/wirecontacttablet.png)
 
 ### Laptop/PC
-[Landing page](assets/wireframes/wiremainpc.png)
-[About me](assets/wireframes/wireaboutpc.png)
-[Images](assets/wireframes/wireimagespc.png)
-[Contact me](assets/wireframes/wirecontactpc.png)
+- [Landing page](assets/wireframes/wiremainpc.png)
+- [About me](assets/wireframes/wireaboutpc.png)
+- [Images](assets/wireframes/wireimagespc.png)
+- [Contact me](assets/wireframes/wirecontactpc.png)
 
 
 
