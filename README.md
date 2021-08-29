@@ -59,7 +59,7 @@ The features of the site are very basic. The navigation bar is fixed on the page
 ![Images](assets/readme-images/images.png)
 
 - __Contact me__
-- The contact me section has a form to fill out for anyone that wishes to contact me for employment opportunities. All fields are required to be filled out by the user to be able to submit the form. 
+- The contact me section has a form to fill out for anyone that wishes to contact me for employment opportunities. All fields are required to be filled out by the user to be able to submit the form. When you click on the submit button you will get a popup message saying the form has been submitted and that I will be in touch ASAP.
 ![Contact me](assets/readme-images/contactme.png)
 
 - __Footer__
