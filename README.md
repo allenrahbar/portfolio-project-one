@@ -82,6 +82,24 @@ If you try to submit any of the information in the contact form you will not be 
 
 The live site has been tested on Google Chrome, Firefox, Safari and Edge. The site has also been tested on several devices using dev tools to confirm that its responsive on all devices.
 
+## Validator Testing
+
+- HTML no errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fallenrahbar.github.io%2Fprojectone%2Findex.html)
+- CSS no errors were returned when passing through the offical [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fallenrahbar.github.io%2Fprojectone%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+## Deployment
+
+This site was deployed using GitHub Pages with the following the steps below:
+
+1. Login or Sign Up to [GitHub](www.github.com).
+2. Create a new repository named "MS1-Project".
+3. Once created, click on "Settings" on the navigation bar under the repository title.
+4. Click on "Pages", on the left hand side below Secrets.
+5. Under "Source", choose which branch you wish to deploy, In most cases it will be "main".
+6. Choose which folder to deploy from, generally from "/root".
+7. Click "Save", then wait for it to be deployed. It may take some time for the page to be fully deployed.
+8. The URL will be displayed above the "source" section in GitHub Pages.
+
  
 
 
