@@ -103,7 +103,7 @@ This site was deployed using GitHub Pages with the following the steps below:
 ## Credits
 
 ## Content
-- Inspiration from the page was taken from [Haley Schaefer](https://www.haleyschafer.com/)
+- Inspiration from the page was taken from [Haley Schafer](https://www.haleyschafer.com/)
 - The fonts were taken from [Google fonts](https://fonts.google.com/).
 - The icons in the footer were taken from [Fontawesome](https://fontawesome.com/).
 - Help with coding was taken from [https://www.w3schools.com/]
