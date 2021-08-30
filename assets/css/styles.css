@@ -38,7 +38,7 @@ p {
 /* style for hero image main page */
 
 #hero-main {
-    background: url('../images/landingpage.jpg') no-repeat center center ;
+    background: url('../images/landing-page.jpg') no-repeat center center ;
     background-size: cover;
     position: relative;
     height: 100vh;
@@ -48,7 +48,7 @@ p {
 
 /* style for hero image about page */
 #hero-about {
-    background: url('../images/mewhite.jpg') no-repeat center center ;
+    background: url('../images/me-white.jpg') no-repeat center center ;
     background-size: contain;
     position: relative;
     height: 100vh;
@@ -249,7 +249,7 @@ footer i:hover{
     }
 
      #hero-about {
-        background: url(../images/meblack.jpg) no-repeat center center;
+        background: url(../images/me-black.jpg) no-repeat center center;
         background-size: cover;
         position: relative;
         width: 100%;

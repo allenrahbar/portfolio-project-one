@@ -46,13 +46,13 @@ The features of the site are very basic. The navigation bar is fixed on the page
 
 - __Landing Page__
 - The landing page has a background image of a laptop along with my name and job title to show the user what the page is about. A greyscale background color was added to the text so that it can be clearly visible on all devices.
-![Landing Page](assets/readme-images/landingpage.png)
+![Landing Page](assets/readme-images/landing-page.png)
 
 - __About me__
 - The about me section has a picture of me to give a personal touch to the page and for employers to see me. The about me text has my current role along with skills that I will be acquiring. The my projects section informs employers how to access my projects and how to contact me.
-![About me](assets/readme-images/aboutme.png)
+![About me](assets/readme-images/about-me.png)
 - The background image for this page changes on mobile devices and tablets because the white background was not suitable for small devices.
-![About me](assets/readme-images/aboutmemobile.png)
+![About me](assets/readme-images/about-me-mobile.png)
 
 - __Images__
 - The gallery has 4 images of me working as a teacher, my teaching certificate, and me doing volunteer work. This was created for users to see my work. Alt attribtue has been added for users that can't view images.
@@ -60,7 +60,7 @@ The features of the site are very basic. The navigation bar is fixed on the page
 
 - __Contact me__
 - The contact me section has a form to fill out for anyone that wishes to contact me for employment opportunities. All fields are required to be filled out by the user to be able to submit the form. When you click on the submit button you will get a popup message saying the form has been submitted and that I will be in touch ASAP.
-![Contact me](assets/readme-images/contactme.png)
+![Contact me](assets/readme-images/contact-me.png)
 
 - __Footer__
 - The footer has 4 fontawesome icons for my Github, LinkedIn, Gmail, and a link to download my CV. The footer is fixed on every page of the website for the user to always have accessibility to the links. All links will open in a new tab except the download button which will download the CV to the users default downloads folder. Opacity was added so the page isn't covered.
