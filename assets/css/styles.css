@@ -141,9 +141,9 @@ p {
 }
 
 #images > img {
-    object-fit: cover;
-    width: 100%;
-    height: 50vh;
+    object-fit: contain;
+     width: 100%;
+     height: 50vh;
 }
   
   /* style for contact header  */
@@ -313,6 +313,7 @@ footer i:hover{
       margin-top: 2rem;
       }
      }
+
    
 
 
