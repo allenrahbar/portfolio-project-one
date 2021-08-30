@@ -119,16 +119,26 @@ p {
     padding: 1rem;
     width: 30%;
     margin-top: 9rem;
-   }
+    background-color: rgba(112, 128, 144, 0.6);
+    
    
+   }
+  
    .right {
       float: right;
       padding: 1rem;
       width: 30%;
       margin-top: 9rem;
+      background-color: rgba(112, 128, 144, 0.6);
+    }
+    .left > h2, p {
+      color:  rgb(240, 255, 255);
+    }
+    .right > h2, p {
+      color:  rgb(240, 255, 255);
     }
     .right a {
-       text-decoration: underline rgb(0, 0, 0);
+       text-decoration: underline rgb(240, 255, 255);
        color: inherit;
        }
     .right i{
