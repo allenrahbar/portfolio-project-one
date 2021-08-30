@@ -15,14 +15,14 @@ h1 {
     font-weight: 600;
     letter-spacing: 2px;
     color: rgb(0, 0, 0);
-    font-size: 200%;
+    font-size: 2rem;
     }
 h2 {
     font-family: 'Cinzel Decorative', cursive;
     font-weight: 600;
     letter-spacing: 2px;
     color:rgb(0, 0, 0);
-    font-size: 150%;
+    font-size: 1.5rem;
 }
 
 p {
@@ -30,7 +30,7 @@ p {
   font-weight: 400;
   letter-spacing: 1px;
   color: rgb(0, 0, 0);
-  font-size: 100%;
+  font-size: 1rem;
 }
   
 
@@ -107,7 +107,7 @@ p {
     }
 
 .sub-header {
-    text-transform:capitalize; 
+    text-transform: capitalize; 
     position: absolute;
     top: 45%;
     left: 50%;
