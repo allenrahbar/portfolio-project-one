@@ -315,50 +315,9 @@ footer i:hover{
       margin-top: 2rem;
       }
      }
-   /* Media query for larger devices */
+   
 
-    @media screen and (min-width: 2000px) and (max-width: 3000px){
-      h1 {
-        font-size: 500%;
-      }
-      h2, .contact-header {
-        margin-top: 2rem;
-        font-size: 400%;
-      }
-      p {
-        font-size: 200%;
-      }
-      .navbar a {
-        font-size: 2rem;
-      }
 
-      input[type=text], [type=email] , [type=tel], textarea ::-webkit-input-placeholder {
-        font-size: 150%;
-        height: 4rem ;
-        padding: 8px;
-        border: 8px solid slategray;
-        border-radius: 8px;
-        margin-top: 3rem;
-      }
-      .message {
-        height: 10rem;
-        font-size: 150%;
-        padding: 8px;
-        border: 8px solid slategray;
-        border-radius: 8px;
-        margin-top: 2rem;
-      }
-      input[type=submit] {
-        font-size: 150%;
-      }
-      
-      footer {
-        height: 2em;
-      }
-      footer i{
-        font-size: 2rem;
-        }
-    } 
     
 
    
