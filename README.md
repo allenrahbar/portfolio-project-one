@@ -86,6 +86,15 @@ If you try to submit any of the information in the contact form you will not be 
 
 The live site has been tested on Google Chrome, Firefox, Safari, and Edge. The site has also been tested on several devices using dev tools to confirm that it's responsive on all devices.
 
+## Function Testing
+| Test Label | Test Action                   | Expected Outcome                                                                                | Test Outcome |
+|------------|-------------------------------|-------------------------------------------------------------------------------------------------|--------------|
+| Navbar     | Hover Click on links          | Links should take you the  the appropriate section. When you hover the color  should be black.  | PASS         |
+| Download   | Click on CV  Click on DL Icon | The Cv should download.                                                                         | PASS         |
+| Form       | Input information             | All information is required. If its not entered you will  not be able to continue.              | PASS         |
+| Submit     | Click on submit               | A popup message that your form  has been sent when you submit.                                  | PASS         |
+| Footer     | Click on icons                | All icons should open in new tab.                                                               | PASS         |
+
 ## Validator Testing
 
 - HTML no errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fallenrahbar.github.io%2Fprojectone%2Findex.html)
