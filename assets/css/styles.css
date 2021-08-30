@@ -146,6 +146,7 @@ p {
   }
 
 #images > img {
+    object-fit: cover;
     width: 50vw;
      height: 50vh;
 }
@@ -269,6 +270,9 @@ footer i:hover{
 
      #images {
        column-count: 1;
+     }
+     #images > img {
+       width: 100vw;
      }
      #contact-me {
        left: 0;
