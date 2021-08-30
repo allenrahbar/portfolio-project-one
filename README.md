@@ -170,7 +170,7 @@ If you need to make a local clone:
 - I own the rights to the images in the about me and images section.
 
 ## Acknowledgement
-I would like to thank the Code Institute for providing the lessons necessary to be able to complete this project.My mentor Brian Macharia for all his. My friend [Emanuel Silva](https://github.com/manni8436) for helping answer any questions I had and also with testing the site. This was a great learning experience!
+I would like to thank the Code Institute for providing the lessons necessary to be able to complete this project.My mentor Brian Macharia for all his guidance. My friend [Emanuel Silva](https://github.com/manni8436) for helping answer any questions I had and also with testing the site. This was a great learning experience!
 
  
 
