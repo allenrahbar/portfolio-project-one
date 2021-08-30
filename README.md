@@ -26,16 +26,23 @@ A live demo of the site can be found  [here](https://allenrahbar.github.io/proje
 - [Contact me](assets/wireframes/wirecontactpc.png)
 
 ## Technologies Used
-- HTML 
-- CSS
-- JS
+* HTML - Mark-up language using semantic structure.
+* CSS -  Cascading style sheet used to style.
+* JS - JS was only used for submitting the form.
+* Gitpod.io - for writing the code. Using the command line for committing and pushing to Git Hub
+* GitHub - Used to host repository 
+* GIT - for version control of the project.
 
 ## Programs Used
-- Balsamiq for wireframes.
-- Gitpod to write the code.
-- Github is used to store the repository.
-- Google fonts were used for all text on the site.
-- Fontawesome used for icons.
+* Balsamiq -for wireframes.
+* Gitpod - to write the code.
+* Github - is used to store the repository.
+* GIT - for version control of the project.
+* Google fonts - were used for all text on the site.
+* Fontawesome - used for icons.
+* Grammerly - used for checking for spelling and grammar typos for README.
+* Favicon - used to create favicon for page.
+* Tiny PNG - to resize images.
 
 
 ## Features
