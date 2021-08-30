@@ -146,7 +146,7 @@ p {
   }
 
 #images > img {
-    object-fit: cover;
+    object-fit: contain;
     width: 50vw;
      height: 50vh;
 }
