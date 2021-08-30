@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,104 +10,93 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/favicon/site.webmanifest"> 
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
     <script>
-        function handleForm() {
-          alert("Thank you! Your form has been submitted. I will contact you ASAP.");
-        }
-        </script>
+      function handleForm() {
+        alert("Thank you! Your form has been submitted. I will contact you ASAP.");
+      }
+    </script>
     <title>Allen Rahbar</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <!--  Menu bar and hero image for main page -->
-    
     <header>
-        <div id="hero-main">
-           <div class="container">
-               <nav class="navbar">
-                    <a href="index.html">Home</a>
-                        <a href="#hero-about">About</a>
-                            <a href="#images">Gallery</a>
-                            <a href="#hero-contact">Contact</a>
-                                <a href="assets/files/allencv.pdf" download="allencv.pdf">CV</a>
-                                    </nav>
-                </div>   
-             <div class="header-text">
-           <h1 class="main-header">Allen Rahbar</h1>
-           <hr>
-                <h2 class="sub-header">Junior Full-Stack Developer</h2>
-            </div>
-            </div>
-     </header>
-         
-    
-
-     <!-- content for about -->
-
-        <section id="hero-about">
-            <div class="left">
-                    <h2>About me</h2>
-                        <br>
-                            <p>I am currently studying at the Code Institute to become a Full-Stack Developer.
-                            By the time I am finished the course I will have knowledge in HTML, CSS, JS, Python, GIT and SQL.
-                            If you are interested in my work history please download the PDF in the header or the footer.</p>
-                                </div>
-                <div class="right">
-                    <h2>My projects</h2>
-                        <br>
-                            <p>If you are interested in taking a look at my projects click on the Github link at the bottom of the page. 
-                             If you want to speak to me in detail please fill out the contact form below. I look forward to hearing from you.</p>
-                                 </div>
-        </section>
-
-        <!-- section for picture gallery -->
-        <div id="images">
-             <img src="assets/images/teachingpic.jpeg" alt="Allen after teaching children english in Costa Rica.">
-                <img src="assets/images/teflcertificate.jpg" alt="Allens TEFL Certificate.">
-                   <img src="assets/images/volunteer.jpg" alt="Allen doing volunteer work for an animal shelter in Iran.">
-                      <img src="assets/images/makingbooks.JPG" alt="Allen making books in a private school in Iran.">
-                                            
-        </div>    
-    
+      <div id="hero-main">
+        <div class="container">
+          <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="#hero-about">About</a>
+            <a href="#images">Gallery</a>
+            <a href="#hero-contact">Contact</a>
+            <a href="assets/files/allencv.pdf" download="allencv.pdf">CV</a>
+          </nav>
+        </div>
+        <div class="header-text">
+          <h1 class="main-header">Allen Rahbar</h1>
+          <hr>
+          <h2 class="sub-header">Junior Full-Stack Developer</h2>
+        </div>
+      </div>
+    </header>
+    <!-- content for about -->
+    <section id="hero-about">
+      <div class="left">
+        <h2>About me</h2>
+        <br>
+        <p>I am currently studying at the Code Institute to become a Full-Stack Developer.
+          By the time I am finished the course I will have knowledge in HTML, CSS, JS, Python, GIT and SQL.
+          If you are interested in my work history please download the PDF in the header or the footer.
+        </p>
+      </div>
+      <div class="right">
+        <h2>My projects</h2>
+        <br>
+        <p>If you are interested in taking a look at my projects click on the Github <a href="https://github.com/allenrahbar">here</a> 
+          or use the link at the bottom of the page.  If you want to speak to me in detail please fill out the contact form below. I look forward to hearing from you.
+        </p>
+      </div>
+    </section>
+    <!-- section for picture gallery -->
+    <div id="images">
+      <img src="assets/images/teachingpic.jpeg" alt="Allen after teaching children english in Costa Rica.">
+      <img src="assets/images/teflcertificate.jpg" alt="Allens TEFL Certificate.">
+      <img src="assets/images/volunteer.jpg" alt="Allen doing volunteer work for an animal shelter in Iran.">
+      <img src="assets/images/makingbooks.JPG" alt="Allen making books in a private school in Iran.">
+    </div>
     <!-- content for contact onsubmit function code taken from https://www.w3schools.com/jsref/event_onsubmit.asp -->
-
-        <section id="hero-contact">
-            <h2 class="contact-header">Contact Me</h2>
-                 <form id="contact-me" aonsubmit="handleForm()">
-                    <div>
-                        <label for="name" aria-label="Enter name"></label>
-                            <input type="text" id="name" name="name" placeholder="Your Name:" required>
-                                </div>
-                    <div>
-                        <label for="email" aria-label="Enter email"></label>
-                            <input type="email" id="email" name="email" placeholder="Your E-mail:" required>
-                                </div>
-                    <div>
-                        <label for="phone" aria-label="Enter phone number"></label>
-                            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number:" required>
-                                </div>
-                    <div>
-                        <label for="message" aria-label="Enter your message"></label>
-                             <textarea class="message" id="message" name="message" placeholder="Message:" required ></textarea>
-                            </div>
-                    <input type="submit" value="Submit">
-                </form>
-        </section>
-    
-     <!--  Footer with fontawesome icons -->
-     <footer>
-        <a href="https://github.com/allenrahbar" target="_blank" rel="noopener" aria-label="Link to my Github page (opens in a new tab">
-            <i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/allen-rahbar/" target="_blank" rel="noopener" aria-label="Link to my LinkedIn (opens in a new tab">
-                    <i class="fab fa-linkedin"></i></a>
-                         <a href="https://www.gmail.com" target="_blank" rel="noopener" aria-label="Link to my Gmail (opens in a new tab">
-                              <i class="fab fa-google"></i></a> 
-                                <a href="assets/files/allencv.pdf" download="allencv.pdf"><i class="fas fa-download"></i></a>
-                
-
+    <section id="hero-contact">
+      <h2 class="contact-header">Contact Me</h2>
+      <form id="contact-me" aonsubmit="handleForm()">
+        <div>
+          <label for="name" aria-label="Enter name"></label>
+          <input type="text" id="name" name="name" placeholder="Your Name:" required>
+        </div>
+        <div>
+          <label for="email" aria-label="Enter email"></label>
+          <input type="email" id="email" name="email" placeholder="Your E-mail:" required>
+        </div>
+        <div>
+          <label for="phone" aria-label="Enter phone number"></label>
+          <input type="tel" id="phone" name="phone" placeholder="Your Phone Number:" required>
+        </div>
+        <div>
+          <label for="message" aria-label="Enter your message"></label>
+          <textarea class="message" id="message" name="message" placeholder="Message:" required ></textarea>
+        </div>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+    <!--  Footer with fontawesome icons -->
+    <footer>
+      <a href="https://github.com/allenrahbar" target="_blank" rel="noopener" aria-label="Link to my Github page (opens in a new tab">
+      <i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/allen-rahbar/" target="_blank" rel="noopener" aria-label="Link to my LinkedIn (opens in a new tab">
+      <i class="fab fa-linkedin"></i></a>
+      <a href="https://www.gmail.com" target="_blank" rel="noopener" aria-label="Link to my Gmail (opens in a new tab">
+      <i class="fab fa-google"></i></a> 
+      <a href="assets/files/allencv.pdf" download="allencv.pdf"><i class="fas fa-download"></i></a>
     </footer>
     <!-- Font awesome script -->
     <script src="https://kit.fontawesome.com/d678b06455.js" crossorigin="anonymous"></script>
-</body>
+  </body>
 </html>
