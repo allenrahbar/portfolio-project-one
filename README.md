@@ -71,7 +71,7 @@ The features of the site are very basic. The navigation bar is fixed on the page
 ![Favicon](assets/readme-images/favicon.png)
 
 ## Features left to implement
-This is an ongoing project that I will be working on for the duration of my working life. The site will be updated with javascript and more interactive features will be added when I have learned the skills necessary to do this. The images section will be replaced with an image of all my projects along with a link to access each project. I would also like to make the contact me section be able to send me an email for when users fill out the form.
+This is an ongoing project that I will be working on for the duration of my working life. The site will be updated with javascript and more interactive features will be added when I have learned the skills necessary to do this. The images section will be replaced with an image of all my projects along with a link to access each project. I would also like to make the contact me section be able to send me an email when users fill out the form.
 
 ## Testing 
 The user testing of the site achieved its purpose. It's easy to navigate between sections. The users will be able to see a little bit about me in the about section and download the PDF for a full list of my work history and education. They are also able to view my Github, LinkedIn and Download my CV.
@@ -120,7 +120,7 @@ This site was deployed using GitHub Pages with the following steps below:
 - I own the rights to the images in the about me and images section.
 
 ## Help
-I would like to thank the Code Institute for providing the lesson necessary to be able to complete this project. My friend [Emanuel Silva](https://github.com/manni8436) for helping answer any questions I had and also with testing the site.
+I would like to thank the Code Institute for providing the lessons necessary to be able to complete this project. My friend [Emanuel Silva](https://github.com/manni8436) for helping answer any questions I had and also with testing the site.
 
  
 
