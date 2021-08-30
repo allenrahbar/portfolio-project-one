@@ -41,7 +41,7 @@ A live demo of the site can be found  [here](https://allenrahbar.github.io/proje
 The features of the site are very basic. The navigation bar is fixed on the page for users to be able to navigate to any page at any time with ease. Cv can be downloaded from header and footer. The landing page is a simple page with my name and job title. You can read a little bit about me in the about section and see my picture. In the images section there are a few images of me teaching, my teaching certificate, and me volunteering for an animal shelter. In the contact section, there is a form to fill out if anyone wants to contact me. The footer has links to Github, Linkedin, Gmail. 
 
 - __Navigation Bar__
-- The navigation bar is situated on top of the page on mobile devices and in the top left on tablets and PCs/Laptops. All pages of the website are in one file and the navigation bar is fixed to always follow the user when scrolling on the page if they wish to return to a previous section.
+- The navigation bar is situated on top of the page on mobile devices and in the top left on tablets and PCs/Laptops. All pages of the website are in one file and the navigation bar is fixed to always follow the user when scrolling on the page if they wish to return to a previous section. Opacity was added to the navbar so that it doesn't cover any important information.
 ![Navigation Bar](assets/readme-images/navbar.png)
 
 - __Landing Page__
@@ -63,7 +63,7 @@ The features of the site are very basic. The navigation bar is fixed on the page
 ![Contact me](assets/readme-images/contactme.png)
 
 - __Footer__
-- The footer has 4 fontawesome icons for my Github, LinkedIn, Gmail, and a link to download my CV. The footer is fixed on every page of the website for the user to always have accessibility to the links. All links will open in a new tab except the download button which will download the CV to the users default downloads folder.
+- The footer has 4 fontawesome icons for my Github, LinkedIn, Gmail, and a link to download my CV. The footer is fixed on every page of the website for the user to always have accessibility to the links. All links will open in a new tab except the download button which will download the CV to the users default downloads folder. Opacity was added so the page isn't covered.
 ![Footer](assets/readme-images/footer.png)
 
 - __Favicon__
