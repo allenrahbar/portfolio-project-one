@@ -66,6 +66,10 @@ The features of the site are very basic. The navigation bar is fixed on the page
 - The footer has 4 fontawesome icons for my Github, LinkedIn, Gmail, and a link to download my CV. The footer is fixed on every page of the website for the user to always have accessibility to the links. All links will open in a new tab except the download button which will download the CV to the users default downloads folder.
 ![Footer](assets/readme-images/footer.png)
 
+- __Favicon__
+- Favicon was created with an image of myself on Favicon.
+![Favicon](assets/readme-images/favicon.png)
+
 ## Features left to implement
 This is an ongoing project that I will be working on for the duration of my working life. The site will be updated with javascript and more interactive features will be added when I have learned the skills necessary to do this. The images section will be replaced with an image of all my projects along with a link to access each project. I would also like to make the contact me section be able to send me an email for when users fill out the form.
 
@@ -107,6 +111,7 @@ This site was deployed using GitHub Pages with the following steps below:
 - The fonts were taken from [Google fonts](https://fonts.google.com/).
 - The icons in the footer were taken from [Fontawesome](https://fontawesome.com/).
 - Help with coding was taken from [https://www.w3schools.com/]
+- Facicon was created on [https://favicon.io/]
 - The code taken has been added in the comments, in the HTML and CSS file.
 
 ## Media
