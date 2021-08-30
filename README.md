@@ -45,7 +45,7 @@ The features of the site are very basic. The navigation bar is fixed on the page
 ![Navigation Bar](assets/readme-images/navbar.png)
 
 - __Landing Page__
-- The landing page has a background image of a laptop along with my name and job title to show the user what the page is about.
+- The landing page has a background image of a laptop along with my name and job title to show the user what the page is about. A greyscale background color was added to the text so that it can be clearly visible on all devices.
 ![Landing Page](assets/readme-images/landingpage.png)
 
 - __About me__
