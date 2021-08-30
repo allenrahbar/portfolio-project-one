@@ -93,28 +93,24 @@ p {
     
   }
 
-  /* style for headers main page code was taken from (https://blog.hubspot.com/website/center-div-css) */
-
-  .main-header {
-    text-transform: uppercase; 
+  /* style for headers main page  */
+  .header-text {
+    background: rgba(112, 128, 144, 0.5);
     position: absolute;
     top: 25%;
-    left: 50%;
-    margin: -35px 0 0 -35px;
+    width: 100%;
+    height: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-header ,.sub-header{
+    text-transform: uppercase; 
     text-align: center;
     color: rgb(240, 255, 255);
-    text-shadow: rgb(0, 0, 0) 5px 5px;
+    padding: 1rem;
     }
 
-.sub-header {
-    text-transform: capitalize; 
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    margin: -35px 0 0 -35px;
-    color: rgb(240, 255, 255);
-    text-shadow: rgb(0, 0, 0) 5px 5px;
-    }
+
   
   /* style for about section */
  
