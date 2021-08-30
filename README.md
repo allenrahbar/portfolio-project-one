@@ -39,7 +39,7 @@ A live demo of the site can be found  [here](https://allenrahbar.github.io/proje
 
 
 ## Features
-The features of the site are very basic. The navigation bar is fixed on the page for users to be able to navigate to any page at any time with ease. Cv can be downloaded from header and footer. The landing page is a simple page with my name and job title. You can read a little bit about me in the about section and see my picture. In the images section there are a few images of me teaching, my teaching certificate, and me volunteering for an animal shelter. In the contact section, there is a form to fill out if anyone wants to contact me. The footer has links to Github, Linkedin, Gmail. 
+The features of the site are very basic. The navigation bar is fixed on the page for users to be able to navigate to any page at any time with ease. Cv can be downloaded from the header and footer. The landing page is a simple page with my name and job title. You can read a little bit about me in the about section, and see my picture. In the images section there are a few images of me teaching, my teaching certificate, and me volunteering for an animal shelter. In the contact section, there is a form to fill out if anyone wants to contact me. The footer has links to Github, Linkedin, Gmail. 
 
 - __Navigation Bar__
 - The navigation bar is situated on top of the page on mobile devices and in the top left on tablets and PCs/Laptops. All pages of the website are in one file and the navigation bar is fixed to always follow the user when scrolling on the page if they wish to return to a previous section. Opacity was added to the navbar so that it doesn't cover any important information.
@@ -56,7 +56,7 @@ The features of the site are very basic. The navigation bar is fixed on the page
 ![About me](assets/readme-images/about-me-mobile.png)
 
 - __Images__
-- The gallery has 4 images of me working as a teacher, my teaching certificate, and me doing volunteer work. This was created for users to see my work. Alt attribtue has been added for users that can't view images.
+- The gallery has 4 images of me working as a teacher, my teaching certificate, and me doing volunteer work. This was created for users to see my work. Alt attribute has been added for users that can't view images.
 ![Images](assets/readme-images/images.png)
 
 - __Contact me__
@@ -77,7 +77,7 @@ This is an ongoing project that I will be working on for the duration of my work
 ## Testing 
 The user testing of the site achieved its purpose. It's easy to navigate between sections. The users will be able to see a little bit about me in the about section and download the PDF for a full list of my work history and education. They are also able to view my Github, LinkedIn and Download my CV.
 
-During testing for responsiveness I noticed that the images weren't responsive on all devices. This was fixed by changing the height on all images to fit the viewport of the device. Another thing I noticed was that the text in the about me section was overlapping the image on smaller devices. I fixed this by changing the background picture and text color for smaller devices. I have tested the responsiveness from small devices up to 5k resolution and have confirmed that it is responsive. Media queries were added for changes depending on the size of the screen so that the information on the site is visible on all devices.
+During testing for responsiveness, I noticed that the images weren't responsive on all devices. This was fixed by changing the height on all images to fit the viewport of the device. Another thing I noticed was that the text in the about me section was overlapping the image on smaller devices. I fixed this by changing the background picture and text color for smaller devices. I have tested the responsiveness from small devices up to 5k resolution and have confirmed that it is responsive. Media queries were added for changes depending on the size of the screen so that the information on the site is visible on all devices.
 
 The navbar wasn't working when you scroll down on other pages. This was fixed by adding a z-index to the navbar. 
 
@@ -90,10 +90,10 @@ The live site has been tested on Google Chrome, Firefox, Safari, and Edge. The s
 ## Function Testing
 | Test Label | Test Action                   | Expected Outcome                                                                                | Test Outcome |
 |------------|-------------------------------|-------------------------------------------------------------------------------------------------|--------------|
-| Navbar     | Hover Click on links          | Links should take you the  the appropriate section. When you hover the color  should be black.  | PASS         |
+| Navbar     | Hover Click on links          | Links should take you to the appropriate section. When you hover the color should be black.  | PASS         |
 | Download   | Click on CV  Click on DL Icon | The Cv should download.                                                                         | PASS         |
-| Form       | Input information             | All information is required. If its not entered you will  not be able to continue.              | PASS         |
-| Submit     | Click on submit               | A popup message that your form  has been sent when you submit.                                  | PASS         |
+| Form       | Input information             | All information is required. If its not entered you will not be able to continue.              | PASS         |
+| Submit     | Click on submit               | A popup message that your form has been sent when you submit.                                  | PASS         |
 | Footer     | Click on icons                | All icons should open in new tab.                                                               | PASS         |
 
 ## Validator Testing
@@ -115,7 +115,7 @@ This site was deployed using GitHub Pages with the following steps below:
 2. Create a new repository named "projectone".
 3. Once created, click on "Settings" on the navigation bar under the repository title.
 4. Click on "Pages", on the left hand-side below Secrets.
-5. Under "Source", choose which branch you wish to deploy, In most cases it will be "main".
+5. Under "Source", choose which branch you wish to deploy, In most cases, it will be "main".
 6. Choose which folder to deploy from, generally from "/root".
 7. Click "Save", then wait for it to be deployed. It may take some time for the page to be fully deployed.
 8. The URL will be displayed above the "source" section in GitHub Pages.
@@ -132,10 +132,10 @@ If you need to make a copy of a repository:
 
 If you need to make a clone:    
 
-1. Login in to [GitHub](www.github.com).
+1. Login to [GitHub](www.github.com).
 2. Fork the repository allenrahbar/projectone using the steps above in [How To Fork a Repository](#HOW-TO-FORK-A-REPOSITORY).
 3. Above the file list, click "Code".
-4. Choose if you want to close using HTTPS, SSH or GitHub CLI, then click the copy button to the right.
+4. Choose if you want to close using HTTPS, SSH, or GitHub CLI, then click the copy button to the right.
 5. Open Git Bash.
 6. Change the directory to where you want your clone to go.
 7. Type git clone and then paste the URL you copied in step 4.
@@ -145,7 +145,7 @@ If you need to make a clone:
 
 If you need to make a local clone:   
 
-1. Login in to [GitHub](www.github.com).
+1. Login to [GitHub](www.github.com).
 2. Under the repository name, above the list of files, click "Code".
 3. Here you can either Clone or Download the repository.
 4. You should close the repository using HTTPS, clicking on the icon to copy the link.
@@ -169,7 +169,7 @@ If you need to make a local clone:
 - The image from the contact me page was taken from [Pexels](https://www.pexels.com/)
 - I own the rights to the images in the about me and images section.
 
-## Help
+## Acknowledgement
 I would like to thank the Code Institute for providing the lessons necessary to be able to complete this project.My mentor Brian Macharia for all his. My friend [Emanuel Silva](https://github.com/manni8436) for helping answer any questions I had and also with testing the site. This was a great learning experience!
 
  
