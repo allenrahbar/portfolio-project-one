@@ -146,9 +146,9 @@ p {
   }
 
 #images > img {
-    object-fit: contain;
-    width: 50vw;
+    width: 100%;
      height: 50vh;
+     
 }
   
   /* style for contact header  */
