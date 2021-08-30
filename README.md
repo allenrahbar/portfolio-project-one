@@ -28,6 +28,7 @@ A live demo of the site can be found  [here](https://allenrahbar.github.io/proje
 ## Technologies Used
 - HTML 
 - CSS
+- JS
 
 ## Programs Used
 - Balsamiq for wireframes.
