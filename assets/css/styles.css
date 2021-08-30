@@ -298,11 +298,26 @@ footer i:hover{
      }
     }
 
+    /* Add media query when tilting mobiles */
+    @media  screen and (max-height:450px) {
+      
+      #hero-about {
+      background: url(../images/me-black.jpg) no-repeat center center;
+      background-size: cover;
+      position: relative;
+      width: 700px;
+      height: 400px;
+    }
+    .left > h2, p , .right > h2, p {
+      color: rgb(240, 255, 255);
+     } 
+    }
+    
    /* Media query for tablets and smaller laptops*/
 
     @media screen and (min-width:550px) and (max-width:900px){
     #hero-about {
-      background: url(../images/meblack.jpg) no-repeat center center;
+      background: url(../images/me-black.jpg) no-repeat center center;
       background-size: cover;
       position: relative;
       width: 100%;
@@ -310,18 +325,25 @@ footer i:hover{
       .left > h2, p , .right > h2, p {
      color: rgb(240, 255, 255);
     }
-    
+    .contact-header {
+      margin-top: 0%;
+    }
     input[type=text], [type=email] , [type=tel], textarea {
       text-align: left;
       width: 50%;
-      padding: 1.5rem;
+      padding: 0.5rem;
       border: 4px solid slategray;
       border-radius: 4px;
       box-sizing: border-box;
       resize: vertical;
-      margin-top: 2rem;
+      margin-top: 0.5rem;
       }
+      .message {
+        height: 3rem;
+        resize: vertical;
      }
+     }
+
 
    
 
