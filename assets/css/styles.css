@@ -40,7 +40,7 @@ p {
 /* style for hero image main page */
 
 #hero-main {
-    background: url('../images/mainpage.jpg') no-repeat center center ;
+    background: url('../images/landingpage.jpg') no-repeat center center ;
     background-size: cover;
     position: relative;
     height: 100vh;
