@@ -126,8 +126,11 @@ p {
       padding: 1rem;
       width: 30%;
       margin-top: 9rem;
-      
-   }
+    }
+    .right a {
+       text-decoration: underline rgb(0, 0, 0);
+       
+    }
 
    /* style for images code taken from Love running project */
    #images {
@@ -255,6 +258,7 @@ footer i:hover{
      .left > h2, .right > h2 {
        text-align: center;
      }
+
 
      #images {
        column-count: 1;
