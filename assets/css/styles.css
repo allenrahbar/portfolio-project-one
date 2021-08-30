@@ -257,6 +257,15 @@ footer i:hover{
      .left > h2, p , .right > h2, p {
        color: rgb(240, 255, 255);
       }
+      .right a {
+        text-decoration: underline rgb(240, 255, 255);
+        color: inherit;
+        }
+     .right i{
+     font-size: inherit;
+     color:rgb(240, 255, 255);
+     cursor: pointer;
+     }
 
      .left, .right {
        float: left;
