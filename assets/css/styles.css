@@ -261,8 +261,9 @@ footer i:hover{
      .left, .right {
        float: left;
        width: 95%;
-       margin-top: 1px;
+       margin-top: 70px;
        margin-right: 4px;
+       background-color: rgba(112, 128, 144, 0.3);
      }
      .left > h2, .right > h2 {
        text-align: center;
@@ -308,7 +309,9 @@ footer i:hover{
       width: 700px;
       height: 400px;
     }
+
     .left > h2, p , .right > h2, p {
+     
       color: rgb(240, 255, 255);
      } 
     }
