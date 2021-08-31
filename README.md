@@ -43,6 +43,7 @@ A live demo of the site can be found  [here](https://allenrahbar.github.io/proje
 * Grammerly - used for checking for spelling and grammar typos for README.
 * Favicon - used to create favicon for page.
 * Tiny PNG - to resize images.
+* Beautifier.io - to clean up HTML and CSS text
 
 ## Design
 I wanted to make a visual page and not have too much content to keep the user interested. For colors I chose grey and white except for the contact page which has a black background. I experimented with several background images, fonts, and different text backgrounds until I finally got a website which I think is visually appealing for the user.
