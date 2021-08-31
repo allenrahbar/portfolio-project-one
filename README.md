@@ -47,7 +47,7 @@ A live demo of the site can be found  [here](https://allenrahbar.github.io/proje
 ## Design
 I wanted to make a visual page and not have too much content to keep the user interested. For colors I chose grey and white except for the contact page which has a black background. I experimented with several background images, fonts, and different text backgrounds until I finally got a website which I think is visually appealing for the user.
 
-## User Store
+## User Story
 This site is designed for employers or recruiters to have a look and see if they want to be in further contact for employment. In the future when I have added more projects it might be for fellow coders who would like to collaborate on projects as well.
 * If recruiters go on the site they will need my work history which is easily accesible to download via the navbar and the footer.
 * If employers go on the site they will most likely be interested in my projects which they can view via the Github link in the My Projects section and in the footer. 
