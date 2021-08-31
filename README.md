@@ -47,6 +47,12 @@ A live demo of the site can be found  [here](https://allenrahbar.github.io/proje
 ## Design
 I wanted to make a visual page and not have too much content to keep the user interested. For colors I chose grey and white except for the contact page which has a black background. I experimented with several background images, fonts, and different text backgrounds until I finally got a website which I think is visually appealing for the user.
 
+## User Store
+This site is designed for employers or recruiters to have a look and see if they want to be in further contact for employment. In the future when I have added more projects it might be for fellow coders who would like to collaborate on projects as well.
+* If recruiters go on the site they will need my work history which is easily accesible to download via the navbar and the footer.
+* If employers go on the site they will most likely be interested in my projects which they can view via the Github link in the My Projects section and in the footer. 
+
+The site has been adapted for the target audience. More information will be addded as soon as I have completed more projects/hackathons and updated my CV.
 
 ## Features
 The features of the site are very basic. The navigation bar is fixed on the page for users to be able to navigate to any page at any time with ease. Cv can be downloaded from the header and footer. The landing page is a simple page with my name and job title. You can read a little bit about me in the about section, acces my github in the my projects section, and see my picture. In the images section there are a few images of me teaching, my teaching certificate, and me volunteering for an animal shelter. In the contact section, there is a form to fill out if anyone wants to contact me. The footer has links to Github, Linkedin, Gmail. 
