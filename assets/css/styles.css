@@ -114,7 +114,7 @@ p {
   
   /* style for about section */
  
-  .left {
+  .left-text-about {
      float: left;
     padding: 1rem;
     width: 30%;
@@ -124,24 +124,24 @@ p {
    
    }
   
-   .right {
+   .right-text-about {
       float: right;
       padding: 1rem;
       width: 30%;
       margin-top: 9rem;
       background-color: rgba(112, 128, 144, 0.6);
     }
-    .left > h2, p {
+    .left-text-about > h2, p {
       color:  rgb(240, 255, 255);
     }
-    .right > h2, p {
+    .right-text-about > h2, p {
       color:  rgb(240, 255, 255);
     }
-    .right a {
+    .right-text-about a {
        text-decoration: underline rgb(240, 255, 255);
        color: inherit;
        }
-    .right i{
+    .right-text-about i{
     font-size: inherit;
     color:rgb(0, 0, 0);
     cursor: pointer;
@@ -266,27 +266,27 @@ footer i:hover{
         position: relative;
         width: 100%;
       }
-     .left > h2, p , .right > h2, p {
+     .left-text-about > h2, p , .right > h2, p {
        color: rgb(240, 255, 255);
       }
-      .right a {
+      .right-text-about a {
         text-decoration: underline rgb(240, 255, 255);
         color: inherit;
         }
-     .right i{
+     .right-text-about i{
      font-size: inherit;
      color:rgb(240, 255, 255);
      cursor: pointer;
      }
 
-     .left, .right {
+     .left-text-about, .right-text-about {
        float: left;
        width: 95%;
        margin-top: 70px;
        margin-right: 4px;
        background-color: rgba(112, 128, 144, 0.3);
      }
-     .left > h2, .right > h2 {
+     .left-text-about > h2, .right-text-about > h2 {
        text-align: center;
      }
 
@@ -330,7 +330,7 @@ footer i:hover{
       width: 700px;
       height: 400px;
     }
-    .left > h2, p , .right > h2, p {
+    .left-text-about > h2, p , .right-text-about > h2, p {
      
       color: rgb(240, 255, 255);
      } 
@@ -364,7 +364,7 @@ footer i:hover{
       position: relative;
       width: 100%;
     }
-      .left > h2, p , .right > h2, p {
+      .left-text-about > h2, p , .right-text-about > h2, p {
      color: rgb(240, 255, 255);
     }
     .contact-header {
