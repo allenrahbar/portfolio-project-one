@@ -44,6 +44,9 @@ A live demo of the site can be found  [here](https://allenrahbar.github.io/proje
 * Favicon - used to create favicon for page.
 * Tiny PNG - to resize images.
 
+## Design
+I wanted to make a visual page and not have too much content to keep the user interested. For colors I chose grey and white except for the contact page which has a black background. I experimented with several background images, fonts, and different text backgrounds until I finally got a website which I think is visually appealing for the user.
+
 
 ## Features
 The features of the site are very basic. The navigation bar is fixed on the page for users to be able to navigate to any page at any time with ease. Cv can be downloaded from the header and footer. The landing page is a simple page with my name and job title. You can read a little bit about me in the about section, acces my github in the my projects section, and see my picture. In the images section there are a few images of me teaching, my teaching certificate, and me volunteering for an animal shelter. In the contact section, there is a form to fill out if anyone wants to contact me. The footer has links to Github, Linkedin, Gmail. 
