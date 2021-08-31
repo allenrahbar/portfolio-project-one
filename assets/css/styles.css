@@ -1,16 +1,18 @@
-/* font for document */   
+/* font for document */
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Playfair+Display&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     border: none;
     overflow-x: hidden;
 }
-  body {
-    max-width: 2000px; 
+
+body {
+    max-width: 2000px;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
 
 /* styles for h1 h2 and p*/
@@ -21,29 +23,30 @@ h1 {
     letter-spacing: 2px;
     color: rgb(0, 0, 0);
     font-size: 2rem;
-    }
+}
+
 h2 {
     font-family: 'Cinzel Decorative', cursive;
     font-weight: 600;
     letter-spacing: 2px;
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     font-size: 1.5rem;
 }
 
 p {
-  font-family: 'Playfair Display', sans-serif;
-  font-weight: 400;
-  letter-spacing: 1px;
-  color: rgb(0, 0, 0);
-  font-size: 1rem;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
 }
-  
+
 
 
 /* style for hero image main page */
 
 #hero-main {
-    background: url('../images/landing-page.jpg') no-repeat center center ;
+    background: url('../images/landing-page.jpg') no-repeat center center;
     background-size: cover;
     position: relative;
     height: 100vh;
@@ -53,7 +56,7 @@ p {
 
 /* style for hero image about page */
 #hero-about {
-    background: url('../images/me-white.jpg') no-repeat center center ;
+    background: url('../images/me-white.jpg') no-repeat center center;
     background-size: contain;
     position: relative;
     height: 100vh;
@@ -63,11 +66,11 @@ p {
 /* style for hero image contact page */
 
 #hero-contact {
-  background: url('../images/contact.jpg') no-repeat center center ;
-  background-size: cover;
-  position: relative;
-  height: 100vh;
-  width: 100%;
+    background: url('../images/contact.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
 }
 
 /* Style for menu bar */
@@ -76,30 +79,31 @@ p {
     position: fixed;
     width: auto;
     z-index: +1;
-    }
+}
 
-  .navbar {
+.navbar {
     overflow: hidden;
-    background-color: rgba(112, 128, 144,0.6);
-    
-  }
-  .navbar a {
+    background-color: rgba(112, 128, 144, 0.6);
+
+}
+
+.navbar a {
     float: left;
-    color:rgb(240, 255, 255);
+    color: rgb(240, 255, 255);
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
     padding: 1rem 1rem;
     font-size: 1.2rem;
-  }
+}
 
-  .navbar a:hover {
-    background-color:black;
-    
-  }
+.navbar a:hover {
+    background-color: black;
 
-  /* style for headers main page  */
-  .header-text {
+}
+
+/* style for headers main page  */
+.header-text {
     background: rgba(112, 128, 144, 0.5);
     position: absolute;
     top: 25%;
@@ -107,115 +111,126 @@ p {
     height: 10rem;
     margin-left: auto;
     margin-right: auto;
-  }
-  .main-header ,.sub-header{
-    text-transform: uppercase; 
+}
+
+.main-header,
+.sub-header {
+    text-transform: uppercase;
     text-align: center;
     color: rgb(240, 255, 255);
     padding: 1rem;
-    }
+}
 
 
-  
-  /* style for about section */
- 
-  .left-text-about {
-     float: left;
+
+/* style for about section */
+
+.left-text-about {
+    float: left;
     padding: 1rem;
     width: 30%;
     margin-top: 9rem;
     background-color: rgba(112, 128, 144, 0.6);
-    
-   
-   }
-  
-   .right-text-about {
-      float: right;
-      padding: 1rem;
-      width: 30%;
-      margin-top: 9rem;
-      background-color: rgba(112, 128, 144, 0.6);
-    }
-    .left-text-about > h2, p {
-      color:  rgb(240, 255, 255);
-    }
-    .right-text-about > h2, p {
-      color:  rgb(240, 255, 255);
-    }
-    .right-text-about a {
-       text-decoration: underline rgb(240, 255, 255);
-       color: inherit;
-       }
-    .right-text-about i{
-    font-size: inherit;
-    color:rgb(0, 0, 0);
-    cursor: pointer;
-    }
 
-   /* style for images code taken from Love running project */
-   #images {
+
+}
+
+.right-text-about {
+    float: right;
+    padding: 1rem;
+    width: 30%;
+    margin-top: 9rem;
+    background-color: rgba(112, 128, 144, 0.6);
+}
+
+.left-text-about>h2,
+p {
+    color: rgb(240, 255, 255);
+}
+
+.right-text-about>h2,
+p {
+    color: rgb(240, 255, 255);
+}
+
+.right-text-about a {
+    text-decoration: underline rgb(240, 255, 255);
+    color: inherit;
+}
+
+.right-text-about i {
+    font-size: inherit;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+/* style for images code taken from Love running project */
+#images {
     clear: both;
     line-height: 0;
     column-count: 2;
     column-gap: 0;
-  }
-
-#images > img {
-    width: 100%;
-     height: 50vh;
-     object-fit: cover;
-     
 }
-  
-  /* style for contact header  */
 
-  .contact-header {
+#images>img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+
+}
+
+/* style for contact header  */
+
+.contact-header {
     text-transform: uppercase;
     color: rgb(240, 255, 255);
     text-shadow: rgb(112, 128, 144) 4px 4px;
     text-align: center;
     font-size: 200%;
     margin-top: 8%;
- }
+}
 
-  /* Style for form */
+/* Style for form */
 
 #contact-me {
-  overflow: hidden;
-  position: relative;
-  left: 33%;
+    overflow: hidden;
+    position: relative;
+    left: 33%;
 }
 
-input[type=text], [type=email] , [type=tel], textarea {
-  text-align: left;
-  width: 33%;
-  padding: 1rem;
-  border: 4px solid slategray;
-  border-radius: 4px;
-  box-sizing: border-box;
-  resize: vertical;
-  margin-top: 1rem;
-  }
+input[type=text],
+[type=email],
+[type=tel],
+textarea {
+    text-align: left;
+    width: 33%;
+    padding: 1rem;
+    border: 4px solid slategray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin-top: 1rem;
+}
 
 .message {
-  height: 10rem;
-  resize: none;
-  }
-
-input[type=submit] {
-  position: relative;
-  left: 0;
-  background-color: rgb(112, 128, 144);
-  color:rgb(240, 255, 255);
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+    height: 10rem;
+    resize: none;
 }
 
-input[type=submit]:hover{
-  background-color:black;
-  color: rgb(240, 255, 255);
+input[type=submit] {
+    position: relative;
+    left: 0;
+    background-color: rgb(112, 128, 144);
+    color: rgb(240, 255, 255);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+    color: rgb(240, 255, 255);
 }
 
 
@@ -232,164 +247,207 @@ footer {
     left: 0;
     right: 0;
     bottom: 0;
-    }
+}
 
-footer i{
+footer i {
     font-size: 1.5rem;
-    color:rgb(240, 255, 255);
+    color: rgb(240, 255, 255);
     margin-left: 1rem;
     cursor: pointer;
 }
-footer i:hover{
-  color: black;
+
+footer i:hover {
+    color: black;
 }
-  
 
 
-  /* media queries */
 
-  /* for phones with a small screen */
-  @media screen and (max-width: 450px) {
+/* media queries */
+
+/* for phones with a small screen */
+@media screen and (max-width: 450px) {
     .container {
-      width: 100%;
-      
-    }
-    .navbar a {
-      font-size: 12px;
-      padding: 0.7rem 0.7rem;
-    }
-    .main-header, .sub-header{
-      text-align: center;
-      margin: 0;
-      left: 0;
-      right: 0;
+        width: 100%;
+
     }
 
-     #hero-about {
+    .navbar a {
+        font-size: 12px;
+        padding: 0.7rem 0.7rem;
+    }
+
+    .main-header,
+    .sub-header {
+        text-align: center;
+        margin: 0;
+        left: 0;
+        right: 0;
+    }
+
+    #hero-about {
         background: url(../images/me-black.jpg) no-repeat center center;
         background-size: cover;
         position: relative;
         width: 100%;
-      }
-     .left-text-about > h2, p , .right > h2, p {
-       color: rgb(240, 255, 255);
-      }
-      .right-text-about a {
+    }
+
+    .left-text-about>h2,
+    p,
+    .right>h2,
+    p {
+        color: rgb(240, 255, 255);
+    }
+
+    .right-text-about a {
         text-decoration: underline rgb(240, 255, 255);
         color: inherit;
-        }
-     .right-text-about i{
-     font-size: inherit;
-     color:rgb(240, 255, 255);
-     cursor: pointer;
-     }
-
-     .left-text-about, .right-text-about {
-       float: left;
-       width: 95%;
-       margin-top: 70px;
-       margin-right: 4px;
-       background-color: rgba(112, 128, 144, 0.3);
-     }
-     .left-text-about > h2, .right-text-about > h2 {
-       text-align: center;
-     }
-
-
-     #images {
-       column-count: 1;
-     }
-     #images > img {
-       width: 100vw;
-     }
-     #contact-me {
-       left: 0;
-     }
-     input[type=text], [type=email] , [type=tel], textarea {
-      width: 100%;
-     }
-     .message {
-       height: 7rem;
-     }
-     input[type=submit] {
-       left: 2px;
-     }
-    
-     #footer {
-      width: 100%;
-      height: 20px;
-      text-align: center;
-      position: fixed;
-      padding: 2px 2px 0px 2px;
-      bottom: 0;
-     }
     }
 
-    /* Add media query when tilting mobiles */
-    @media  screen and (max-height:450px) {
-      
-      #hero-about {
-      background: url(../images/me-black.jpg) no-repeat center center;
-      background-size: cover;
-      position: relative;
-      width: 700px;
-      height: 400px;
+    .right-text-about i {
+        font-size: inherit;
+        color: rgb(240, 255, 255);
+        cursor: pointer;
     }
-    .left-text-about > h2, p , .right-text-about > h2, p {
-     
-      color: rgb(240, 255, 255);
-     } 
-     .contact-header {
-       margin-top: 2%;
-     }
-     input[type=text], [type=email] , [type=tel], textarea {
-      text-align: left;
-      width: 50%;
-      padding: 0.5rem;
-      border: 4px solid slategray;
-      border-radius: 4px;
-      box-sizing: border-box;
-      resize: vertical;
-      margin-top: 0.3rem;
-      }
-      .message {
-        height: 3rem;
-        resize: vertical;
+
+    .left-text-about,
+    .right-text-about {
+        float: left;
+        width: 95%;
+        margin-top: 70px;
+        margin-right: 4px;
+        background-color: rgba(112, 128, 144, 0.3);
     }
+
+    .left-text-about>h2,
+    .right-text-about>h2 {
+        text-align: center;
+    }
+
+
+    #images {
+        column-count: 1;
+    }
+
+    #images>img {
+        width: 100vw;
+    }
+
+    #contact-me {
+        left: 0;
+    }
+
+    input[type=text],
+    [type=email],
+    [type=tel],
+    textarea {
+        width: 100%;
+    }
+
+    .message {
+        height: 7rem;
+    }
+
+    input[type=submit] {
+        left: 2px;
+    }
+
     #footer {
-      height: 10px;
+        width: 100%;
+        height: 20px;
+        text-align: center;
+        position: fixed;
+        padding: 2px 2px 0px 2px;
+        bottom: 0;
     }
-  }
-   /* Media query for tablets and smaller laptops*/
+}
 
-    @media screen and (min-width:550px) and (max-width:750px){
+/* Add media query when tilting mobiles */
+@media screen and (max-height:450px) {
+
     #hero-about {
-      background: url(../images/me-black.jpg) no-repeat center center;
-      background-size: cover;
-      position: relative;
-      width: 100%;
+        background: url(../images/me-black.jpg) no-repeat center center;
+        background-size: cover;
+        position: relative;
+        width: 700px;
+        height: 400px;
     }
-      .left-text-about > h2, p , .right-text-about > h2, p {
-     color: rgb(240, 255, 255);
+
+    .left-text-about>h2,
+    p,
+    .right-text-about>h2,
+    p {
+
+        color: rgb(240, 255, 255);
     }
+
     .contact-header {
-      margin-top: 0%;
+        margin-top: 2%;
     }
-    input[type=text], [type=email] , [type=tel], textarea {
-      text-align: left;
-      width: 50%;
-      padding: 0.5rem;
-      border: 4px solid slategray;
-      border-radius: 4px;
-      box-sizing: border-box;
-      resize: vertical;
-      margin-top: 0.5rem;
-      }
-      .message {
+
+    input[type=text],
+    [type=email],
+    [type=tel],
+    textarea {
+        text-align: left;
+        width: 50%;
+        padding: 0.5rem;
+        border: 4px solid slategray;
+        border-radius: 4px;
+        box-sizing: border-box;
+        resize: vertical;
+        margin-top: 0.3rem;
+    }
+
+    .message {
         height: 3rem;
         resize: vertical;
-     }
-     }
+    }
+
+    #footer {
+        height: 10px;
+    }
+}
+
+/* Media query for tablets and smaller laptops*/
+
+@media screen and (min-width:550px) and (max-width:750px) {
+    #hero-about {
+        background: url(../images/me-black.jpg) no-repeat center center;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+    }
+
+    .left-text-about>h2,
+    p,
+    .right-text-about>h2,
+    p {
+        color: rgb(240, 255, 255);
+    }
+
+    .contact-header {
+        margin-top: 0%;
+    }
+
+    input[type=text],
+    [type=email],
+    [type=tel],
+    textarea {
+        text-align: left;
+        width: 50%;
+        padding: 0.5rem;
+        border: 4px solid slategray;
+        border-radius: 4px;
+        box-sizing: border-box;
+        resize: vertical;
+        margin-top: 0.5rem;
+    }
+
+    .message {
+        height: 3rem;
+        resize: vertical;
+    }
+}
 
 
    
