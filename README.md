@@ -89,6 +89,8 @@ The user testing of the site achieved its purpose. It's easy to navigate between
 
 During testing for responsiveness, I noticed that the images weren't responsive on all devices. This was fixed by changing the height on all images to fit the viewport of the device. Another thing I noticed was that the text in the about me section was overlapping the image on smaller devices. I fixed this by changing the background picture and text color for smaller devices. I have tested the responsiveness from small devices up to 5k resolution and have confirmed that it is responsive. Media queries were added for changes depending on the size of the screen so that the information on the site is visible on all devices.
 
+When testing for when you tilt the mobile horizontally I noticed that there was an issue with the form page. You couldn't click on the submit button. This was fixed by making the size of the footer smaller and changing the margins for the form.
+
 The navbar wasn't working when you scroll down on other pages. This was fixed by adding a z-index to the navbar. 
 
 All links in the header and footer open in a new tab except for the download button which downloads the CV to your default downloads folder. Everything has been manually tested to confirm that it works.
