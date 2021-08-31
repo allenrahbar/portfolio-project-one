@@ -6,6 +6,11 @@
     border: none;
     overflow-x: hidden;
 }
+  body {
+    max-width: 2000px; 
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 
 /* styles for h1 h2 and p*/
