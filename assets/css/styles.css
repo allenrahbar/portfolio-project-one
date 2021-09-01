@@ -257,7 +257,7 @@ footer i:hover {
 
   .left-text-about p,
   .right-text-about p {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .right-text-about a {
@@ -321,9 +321,16 @@ footer i:hover {
     background: url(../images/me-black.jpg) no-repeat center center;
     background-size: cover;
     position: relative;
-    width: 700px;
-    height: 400px;
+    width: 100%;
+    height: 100vh;
   }
+  .left-text-about,
+  .right-text-about {
+    float: left;
+    width: 95%;
+    margin-top: 3rem;
+    margin-right: 4px;
+  }  
 
   .contact-header {
     margin-top: 2%;
