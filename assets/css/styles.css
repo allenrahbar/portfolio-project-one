@@ -266,12 +266,10 @@ footer i:hover {
 
 /* for phones with a small screen */
 @media screen and (max-width: 450px) {
-    .container {
-        width: auto;
-        }
     
     
-    .navbar > a {
+    
+ .navbar > a {
     font-size: 12px;
     padding: 0.5rem 0.5rem;
         }
