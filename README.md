@@ -59,7 +59,7 @@ The site has been adapted for the target audience. More information will be addd
 The features of the site are very basic. The navigation bar is fixed on the page for users to be able to navigate to any page at any time with ease. Cv can be downloaded from the header and footer. The landing page is a simple page with my name and job title. You can read a little bit about me in the about section, acces my github in the my projects section, and see my picture. In the images section there are a few images of me teaching, my teaching certificate, and me volunteering for an animal shelter. In the contact section, there is a form to fill out if anyone wants to contact me. The footer has links to Github, Linkedin, Gmail. 
 
 - __Navigation Bar__
-- The navigation bar is situated on top of the page on mobile devices and in the top left on tablets and PCs/Laptops. All pages of the website are in one file and the navigation bar is fixed to always follow the user when scrolling on the page if they wish to return to a previous section. Opacity was added to the navbar so that it doesn't cover any important information.
+- The navigation bar is situated on the top left on all devices, I made it this way so that it doesn't obstruct the text and images. . All pages of the website are in one file and the navigation bar is fixed to always follow the user when scrolling on the page if they wish to return to a previous section. Opacity was added to the navbar so that it doesn't cover any important information.
 ![Navigation Bar](assets/readme-images/navbar.png)
 
 - __Landing Page__
