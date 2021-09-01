@@ -84,8 +84,7 @@ p {
 .navbar {
     overflow: hidden;
     background-color: rgba(112, 128, 144, 0.6);
-
-}
+}  
 
 .navbar a {
     float: left;
@@ -268,14 +267,19 @@ footer i:hover {
 @media screen and (max-width: 450px) {
     .container {
         width: 100%;
+        }
+    .navbar ul {
+        margin: 0;
+        padding: 0;
+    }
+    .navbar ul li {
         margin-left: auto;
         margin-right: auto;
-
-    }
+        display: inline;
+         }
 
     .navbar a {
-        font-size: 12px;
-        padding: 0.7rem 0.7rem;
+        font-size: 9px;
         }
 
     .main-header,
