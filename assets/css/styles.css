@@ -284,7 +284,9 @@ footer i:hover {
   #images>img {
     width: 100vw;
   }
-
+  #hero-contact {
+    height: 90vh;
+  }
   #contact-me {
     left: 0;
   }
