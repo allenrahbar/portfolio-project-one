@@ -284,12 +284,11 @@ footer i:hover {
         height: 100vh;
     }
 
-    .left-text-about > h2,
-    p,
-    .right > h2,
-    p {
-        color: rgb(240, 255, 255);
+    .left-text-about p,
+    .right-text-about p  {
+        font-size: 14px;
     }
+    
 
     .right-text-about a {
         text-decoration: underline rgb(240, 255, 255);
@@ -306,7 +305,7 @@ footer i:hover {
     .right-text-about {
         float: left;
         width: 95%;
-        margin-top: 5px;
+        margin-top: 3rem;
         margin-right: 4px;
     }  
     
