@@ -102,7 +102,11 @@ The navbar wasn't working when you scroll down on other pages. This was fixed by
 
 All links in the header and footer open in a new tab except for the download button which downloads the CV to your default downloads folder. Everything has been manually tested to confirm that it works.
 
+The color for the submit button was hard to see on mobile devices. I changed the color to make it more visible.
+
 If you try to submit any of the information in the contact form you will not be able to proceed because all fields are required to be filled out.
+
+
 
 The live site has been tested on Google Chrome, Firefox, Safari, and Edge. The site has also been tested on several devices using dev tools to confirm that it's responsive on all devices.
 
