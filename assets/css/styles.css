@@ -55,6 +55,7 @@ p {
 
 
 /* style for hero image about page */
+
 #hero-about {
     background: url('../images/me-white.jpg') no-repeat center center;
     background-size: contain;
@@ -107,7 +108,7 @@ p {
     position: absolute;
     top: 25%;
     width: 100%;
-    height: 10rem;
+    height: 11rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -266,29 +267,16 @@ footer i:hover {
 /* for phones with a small screen */
 @media screen and (max-width: 450px) {
     .container {
-        width: 100%;
+        width: auto;
         }
-    .navbar ul {
-        margin: 0;
-        padding: 0;
-    }
-    .navbar ul li {
-        margin-left: auto;
-        margin-right: auto;
-        display: inline;
-         }
-
-    .navbar a {
-        font-size: 9px;
+    
+    
+    .navbar > a {
+    font-size: 12px;
+    padding: 0.5rem 0.5rem;
         }
 
-    .main-header,
-    .sub-header {
-        text-align: center;
-        margin: 0;
-        left: 0;
-        right: 0;
-    }
+  
 
     #hero-about {
         background: url(../images/me-black.jpg) no-repeat center center;
