@@ -4,7 +4,7 @@ This is my personal website to present to prospective employers. Users of the si
 ![Responsiveness](assets/readme-images/responsive.png)
 
 ## Demo 
-A live demo of the site can be found  [here](https://allenrahbar.github.io/projectone/) .
+A live demo of the site can be found  [here](https://allenrahbar.github.io/portfolio-project-one/) .
 
 ## Wireframes
 ### Mobile
