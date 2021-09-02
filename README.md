@@ -81,7 +81,7 @@ The features of the site are very basic. The navigation bar is fixed on the page
 ![Contact me](assets/readme-images/contact-me.png)
 
 - __Footer__
-- The footer has 4 fontawesome icons for my Github, LinkedIn, Gmail, and a link to download my CV. The footer is fixed on every page of the website for the user to always have accessibility to the links. All links will open in a new tab except the download button which will download the CV to the users default downloads folder. Opacity was added so the page isn't covered.
+- The footer has 4 fontawesome icons for my Github, LinkedIn, Gmail, and a link to download my CV. The footer is fixed on every page of the website for the user to always have accessibility to the links. All links will open in a new tab except the download button which will download the CV to the users default downloads folder. If you click on the download button on mobile devices it will open the PDF on the same page. Opacity was added so the page isn't covered.
 ![Footer](assets/readme-images/footer.png)
 
 - __Favicon__
