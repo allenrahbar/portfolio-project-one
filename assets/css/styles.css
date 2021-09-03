@@ -69,13 +69,15 @@ p {
 /* Style for menu bar */
 .container {
   position: fixed;
-  width: auto;
+  width: 100%;
   z-index: +1;
 }
 
 .navbar {
   overflow: hidden;
   background-color: rgba(112, 128, 144, 0.8);
+  display: flex;
+  justify-content: center;
 }
 
 .navbar a {
