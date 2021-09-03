@@ -243,7 +243,7 @@ footer i:hover {
 /* media queries */
 /* for phones with a small screen */
 @media screen and (max-width: 450px) {
-  .navbar>a {
+  .navbar a {
     font-size: 12px;
     padding: 0.5rem 0.5rem;
   }
