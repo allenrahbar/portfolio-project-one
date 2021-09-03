@@ -121,8 +121,9 @@ The live site has been tested on Google Chrome, Firefox, Safari, and Edge. The s
 
 ## Validator Testing
 
-- HTML no errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fallenrahbar.github.io%2Fprojectone%2Findex.html)
-- CSS no errors were returned when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fallenrahbar.github.io%2Fprojectone%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- HTML no errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fallenrahbar.github.io%2Fportfolio-project-one%2F)
+- CSS no errors were returned when passing through the official [Jigsaw validator] (https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fallenrahbar.github.io%2Fportfolio-project-one%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
 
 ## Lighthouse Testing
 I ran several tests in Lighthouse and noticed that the performance was low, the reason for this was that the image sizes were too large. I resized the images and readded them and got the score I wanted. The score for Desktop was slightly higher than for Mobile but I am satisfied with the results.
@@ -148,7 +149,7 @@ This site was deployed using GitHub Pages with the following steps below:
 If you need to make a copy of a repository:
 
 1. Login or Sign Up to [GitHub](www.github.com).
-2. On GitHub, go to [allenrahbar/projectone](https://github.com/allenrahbar/projectone).
+2. On GitHub, go to [allenrahbar/projectone](https://github.com/allenrahbar/portfolio-project-one).
 3. In the top right corner, click "Fork".
 
 ### HOW TO CLONE A REPOSITORY
