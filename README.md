@@ -136,7 +136,7 @@ I ran several tests in Lighthouse and noticed that the performance was low, the 
 This site was deployed using GitHub Pages with the following steps below:
 
 1. Login or Sign Up to [GitHub](www.github.com).
-2. Create a new repository named "projectone".
+2. Create a new repository named "portfolio-project-one".
 3. Once created, click on "Settings" on the navigation bar under the repository title.
 4. Click on "Pages", on the left hand-side below Secrets.
 5. Under "Source", choose which branch you wish to deploy, In most cases, it will be "main".
