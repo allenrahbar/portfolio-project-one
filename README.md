@@ -149,7 +149,7 @@ This site was deployed using GitHub Pages with the following steps below:
 If you need to make a copy of a repository:
 
 1. Login or Sign Up to [GitHub](www.github.com).
-2. On GitHub, go to [allenrahbar/projectone](https://github.com/allenrahbar/portfolio-project-one).
+2. On GitHub, go to [allenrahbar/portfolio-project-one](https://github.com/allenrahbar/portfolio-project-one).
 3. In the top right corner, click "Fork".
 
 ### HOW TO CLONE A REPOSITORY
@@ -194,7 +194,7 @@ If you need to make a local clone:
 - I own the rights to the images in the about me and images section.
 
 ## Acknowledgement
-I would like to thank the Code Institute for providing the lessons necessary to be able to complete this project.My mentor Brian Macharia for all his guidance. My friend [Emanuel Silva](https://github.com/manni8436) for helping answer any questions I had and also with testing the site. This was a great learning experience!
+I would like to thank the Code Institute for providing the lessons necessary to be able to complete this project. My mentor Brian Macharia for all his guidance. My friend [Emanuel Silva](https://github.com/manni8436) for helping answer any questions I had and also with testing the site. This was a great learning experience!
 
  
 
