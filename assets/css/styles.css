@@ -75,7 +75,7 @@ p {
 
 .navbar {
   overflow: hidden;
-  background-color: rgba(112, 128, 144, 0.6);
+  background-color: rgba(112, 128, 144, 0.8);
 }
 
 .navbar a {
@@ -94,7 +94,7 @@ p {
 
 /* style for headers main page  */
 .header-text {
-  background: rgba(112, 128, 144, 0.5);
+  background: rgba(112, 128, 144, 0.8);
   position: absolute;
   top: 25%;
   width: 100%;
@@ -117,7 +117,7 @@ p {
   padding: 1rem;
   width: 30%;
   margin-top: 8rem;
-  background-color: rgba(112, 128, 144, 0.6);
+  background-color: rgba(112, 128, 144, 0.8);
 }
 
 .right-text-about {
@@ -125,7 +125,7 @@ p {
   padding: 1rem;
   width: 30%;
   margin-top: 8rem;
-  background-color: rgba(112, 128, 144, 0.6);
+  background-color: rgba(112, 128, 144, 0.8);
 }
 
 .left-text-about>h2,
@@ -219,7 +219,7 @@ footer {
   width: 100%;
   height: 40px;
   text-align: center;
-  background-color: rgba(112, 128, 144, 0.6);
+  background-color: rgba(112, 128, 144, 0.8);
   position: fixed;
   padding: 8px 8px 0px 8px;
   left: 0;
